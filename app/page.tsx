@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="bg-gray-50">
       <header></header>
-      <main className="container mx-auto max-w-screen-xl bg-white px-8 pt-12">
+      <main className="container mx-auto max-w-screen-2xl bg-white px-24 pt-12">
         <section>
           <div className="flex flex-col gap-3 max-w-xl">
             <h4>Governance infra for onchain communities</h4>
@@ -135,47 +135,54 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="rounded-lg bg-gray-50 p-6 my-2">
-            <h2>Governance application stack</h2>
-            <p>
-              We give you the best contract and client, and it stays the best
-              too
-            </p>
-            <img src="https://placehold.co/1200x200" alt="placeholder" />
-            <div className="flex">
-              <div>
-                <h3>Governor upgrades</h3>
-                <p>
-                  Deploy Agora governor in one-click. Flexible and customizable
-                  parameters and modules available.
-                </p>
-                <ul>
-                  <li>
-                    Partial delegation. No more splitting up multi-sigs to run
-                    programs.
-                  </li>
-                  <li>
-                    Liquid delegation. Enable time-bound, split rights and
-                    re-delegation capabilities.
-                  </li>
-                  <li>
-                    Quorum management. Dynamic quorums, flexible quorums, based
-                    on what you need.
-                  </li>
-                  <li>
-                    Multiple voting systems. Standard voting (Yes/No), Approval
-                    Voting, Quadratic Voting, customized to your governance
-                    needs.
-                  </li>
-                </ul>
-              </div>
+          <div className="flex justify-between gap-2">
+            <div className="rounded-lg bg-gray-50 p-6 my-2">
+              <h2>Governor upgrades</h2>
+              <p>
+                Deploy Agora governor in one-click. Flexible and customizable
+                parameters and modules available.
+              </p>
+              <Image
+                src="/gov-upgrades.png"
+                width={720}
+                height={90}
+                alt="ENS logo"
+                className=""
+              />
 
-              <div>
-                <h3>Agora Governor Client</h3>
-                <p>
-                  Beautiful delegation and voting interface. Easy to create
-                  proposal creation.
-                </p>
+              <ul>
+                <li>
+                  Partial delegation. No more splitting up multi-sigs to run
+                  programs.
+                </li>
+                <li>
+                  Liquid delegation. Enable time-bound, split rights and
+                  re-delegation capabilities.
+                </li>
+                <li>
+                  Quorum management. Dynamic quorums, flexible quorums, based on
+                  what you need.
+                </li>
+                <li>
+                  Multiple voting systems. Standard voting (Yes/No), Approval
+                  Voting, Quadratic Voting, customized to your governance needs.
+                </li>
+              </ul>
+            </div>
+            <div className="rounded-lg bg-gray-50 p-6 my-2">
+              <h3>Agora Governor Client</h3>
+              <p>
+                Beautiful delegation and voting interface. Easy to create
+                proposal creation.
+              </p>
+              <Image
+                src="/gov-client.png"
+                width={720}
+                height={90}
+                alt="ENS logo"
+                className=""
+              />
+              <div className="flex">
                 <ul>
                   <li>
                     White label solutions. We take care of the infrastructure
@@ -185,13 +192,20 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex justify-between gap-2 my-2">
+
+          <div className="flex justify-between gap-2">
             <div className="rounded-lg bg-gray-50 p-6 w-full">
               <h2>Ecosystem growth tooling</h2>
               <p>
                 We deploy tools that grow your ecosystem, and make your
                 contributors’ lives easier
-                <img src="https://placehold.co/300x200" alt="placeholder" />
+                <Image
+                  src="/ecosystem-tools.png"
+                  width={400}
+                  height={90}
+                  alt="ENS logo"
+                  className=""
+                />
               </p>
               <ul>
                 <li>
@@ -212,7 +226,13 @@ export default function Home() {
             <div className="rounded-lg bg-gray-50 p-6 w-full">
               <h2>Admin mission control</h2>
               <p>We give your foundation and delegates superpowers</p>
-              <img src="https://placehold.co/300x200" alt="placeholder" />
+              <Image
+                  src="/admin-tools.png"
+                  width={400}
+                  height={90}
+                  alt="ENS logo"
+                  className=""
+                />
               <ul>
                 <li>
                   Measurable decentralization. We help you track where you’re at
@@ -231,17 +251,25 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-          </div>
-          <div className="rounded-lg bg-gray-50 p-6 my-2">
-            <h2>Open-source & Interopable</h2>
-            <p>
-              We help you deploy Snapshot, Tally and Karma. So that you have a
-              full fledge governance layer with multiple frontends.
-            </p>
+
+            <div className="rounded-lg bg-gray-50 p-6 w-full">
+              <h2>Open-source & Interopable</h2>
+              <Image
+                  src="/open-source.png"
+                  width={400}
+                  height={90}
+                  alt="ENS logo"
+                  className=""
+                />
+              <p>
+                We help you deploy Snapshot, Tally and Karma. So that you have a
+                full fledge governance layer with multiple frontends.
+              </p>
+            </div>
           </div>
         </section>
 
-        <section className="mb-24">
+        <section className="pb-24">
           <div className="max-w-xl mb-4">
             <h4>Just getting started?</h4>
             <h1>DAO Launch Package</h1>
@@ -259,7 +287,13 @@ export default function Home() {
               <p>
                 We'll help you do your airdrop right, get a good initial voter
                 base, and deploy your token with the right gov features.
-                <img src="https://placehold.co/300x200" alt="placeholder" />
+                <Image
+                  src="/token-launch.png"
+                  width={700}
+                  height={90}
+                  alt="ENS logo"
+                  className=""
+                />
               </p>
               <ul>
                 <li>
@@ -284,7 +318,13 @@ export default function Home() {
                 Deploy Agora governor in one-click. Flexible and customizable
                 parameters and modules available.
               </p>
-              <img src="https://placehold.co/300x200" alt="placeholder" />
+              <Image
+                  src="/gov-launch.png"
+                  width={700}
+                  height={90}
+                  alt="ENS logo"
+                  className=""
+                />
               <ul>
                 <li>
                   Partial delegation. No more splitting up multi-sigs to run
