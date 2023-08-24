@@ -41,7 +41,7 @@ export default function Home() {
       </header>
       <main className="container mx-auto max-w-screen-2xl bg-white px-4 pt-16 lg:px-24 lg:pt-20">
         <section>
-          <div className="mb-20 gap-16">
+          <div className="sm:mb-20 mb-10 gap-16">
             <div className="">
               <h4 className="mb-4">For onchain communities</h4>
               <h1 className="mb-6 sm:text-7xl">
@@ -60,7 +60,7 @@ export default function Home() {
               Get in touch
             </button>
           </div>
-          <div className="flex justify-between mb-20">
+          <div className="flex justify-between sm:mb-20 mb-10 sm:flex-row flex-col gap-y-2">
             <div>
               <h4>Used monthly by</h4>
               <h1>103,000 voters</h1>
@@ -97,8 +97,8 @@ export default function Home() {
           </div>
         </section>
         <section className="mb-24 mt-12">
-          <div className="flex flex-col sm:flex-row items-center lg:justify-between px-12 rounded-lg border gap-y-8">
-            <p className="border-r pr-12 py-6 font-semibold">
+          <div className="flex flex-col sm:flex-row items-center lg:justify-between px-12 py-12 sm:py-0 rounded-lg border gap-y-8">
+            <p className="sm:border-r sm:pr-12 sm:py-6 font-semibold">
               Trusted by leaders at:
             </p>
             <a href="https://vote.optimism.io/" target="_blank">
@@ -206,7 +206,7 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col sm:flex-row justify-between gap-x-2">
-            <div className="rounded-lg bg-gray-50 px-6 py-8 sm:my-2 w-1/2">
+            <div className="rounded-lg bg-gray-50 px-6 py-8 sm:my-2 sm:w-1/2">
               <h2>Governor upgrades</h2>
               <p>
                 Agora upgrades your governor with features to supercharge your
@@ -235,7 +235,7 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-            <div className="rounded-lg bg-gray-50 px-6 py-8 my-2 w-1/2">
+            <div className="rounded-lg bg-gray-50 px-6 py-8 my-2 sm:w-1/2">
               <h3>Agora Governor Client</h3>
               <p>
                 Beautiful delegation and voting interface. Easy to create
@@ -264,7 +264,7 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col sm:flex-row justify-between gap-2">
-            <div className="rounded-lg bg-gray-50 p-6 w-1/3">
+            <div className="rounded-lg bg-gray-50 p-6 sm:w-1/3">
               <Image
                 src="/ecosystem-tools.png"
                 width={400}
@@ -289,7 +289,7 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="rounded-lg bg-gray-50 p-6 w-1/3">
+            <div className="rounded-lg bg-gray-50 p-6 sm:w-1/3">
               <Image
                 src="/admin-tools.png"
                 width={400}
@@ -313,7 +313,7 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="rounded-lg bg-gray-50 p-6 w-1/3">
+            <div className="rounded-lg bg-gray-50 p-6 sm:w-1/3">
               <Image
                 src="/open-source.png"
                 width={400}
@@ -350,7 +350,7 @@ export default function Home() {
             <div className="rounded-lg bg-gray-50 p-6 w-full">
               <h2>Token launch</h2>
               <p>
-                We'll help you do your airdrop right, get a good initial voter
+                We&apos;ll help you do your airdrop right, get a good initial voter
                 base, and deploy your token with the right gov features.
                 <Image
                   src="/token-launch.png"
