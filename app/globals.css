@@ -1,10 +1,17 @@
 @tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @layer base {
-  html{
+  html {
     @apply text-gray-700;
   }
-  h1, h2, h3, h4, h5, h6{
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply text-gray-950;
     @apply font-bold;
   }
@@ -23,8 +30,8 @@
     @apply font-semibold;
     @apply text-gray-500;
   }
-
+  li{
+    @apply before:content-["•"];
+    @apply mb-2;
+  }
 }
-
-@tailwind components;
-@tailwind utilities;
