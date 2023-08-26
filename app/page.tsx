@@ -45,55 +45,20 @@ export default function Home() {
             <div className="">
               <h4 className="mb-4">For onchain communities</h4>
               <h1 className="mb-6 sm:text-7xl">
-                Agora is the best governance app, whether you&apos;re just
-                getting started or already have a thriving community
+                Launch your onchain governance end-to-end in 1 week.
               </h1>
               <p className="max-w-4xl">
-                We provides onchain organizations with the tools they need to
-                make quick, effective, and permissionless decisions that help
-                their communities grow. Agora handles the infra so you can focus
-                on building your protocol.
+                Agora governor is based off the most battle-tested, trusted and
+                proven standard (Compound Bravo and OZ Governor) as a base with
+                additional modules like partial delegation and voting systems
+                enabled. Deploy a fully-managed governor and full-stack app
+                trusted by the largest protocols.
               </p>
             </div>
             <button className="py-2 px-4 mt-6 bg-neutral-950 text-white rounded-lg">
               <a href="mailto:charlie@voteagora.com"></a>
               Get in touch
             </button>
-          </div>
-          <div className="flex justify-between sm:mb-20 mb-10 sm:flex-row flex-col gap-y-2">
-            <div>
-              <h4>Used monthly by</h4>
-              <h1>103,000 voters</h1>
-            </div>
-            <div className="border-l"></div>
-            <div>
-              <h4>Profiles created by</h4>
-              <h1>3,500 delegates</h1>
-            </div>
-            <div className="border-l"></div>
-            <div>
-              <h4>Delegate events</h4>
-              <h1>100,000</h1>
-            </div>
-            <div className="border-l"></div>
-            <div>
-              <h4>Token value delegated</h4>
-              <h1>$40,000,000</h1>
-            </div>
-            <div className="border-l"></div>
-            <div>
-              <h4>Treasury governed through Agora</h4>
-              <h1>$4,000,000,000+</h1>
-            </div>
-          </div>
-          <div className="p-3 bg-gray-50 my-6 rounded-xl border">
-            <Image
-              src="/op-agora.png"
-              width={1000}
-              height={1000}
-              alt="Picture of the Optimism Agora"
-              className="w-full rounded-md drop-shadow-sm"
-            />
           </div>
         </section>
         <section className="mb-24 mt-12">
@@ -147,41 +112,95 @@ export default function Home() {
               />
             </a>
           </div>
+          <div className="p-3 bg-gray-50 my-6 rounded-xl border">
+            <Image
+              src="/op-agora.png"
+              width={1000}
+              height={1000}
+              alt="Picture of the Optimism Agora"
+              className="w-full rounded-md drop-shadow-sm"
+            />
+          </div>
         </section>
         <section>
-          <div className="max-w-3xl mb-4 flex flex-col gap-3">
-            <h1>
-              Agora provides the foundation for your community&apos;s growth
-            </h1>
-          </div>
-          <div className="border rounded-t-lg flex justify-around flex-col sm:flex-row">
-            <div className="px-6 py-12">
-              <h4 className="pb-3">Today</h4>
-              <ul className="flex flex-col">
-                <li>Hard to attract new delegates and contributors</li>
-                <li>Operational nightmare shepherding proposals through</li>
-                <li>Credible and productive decentralization are tradeoffs</li>
-              </ul>
+          <div className="flex justify-between sm:mb-20 mb-10 sm:flex-row flex-col gap-y-2">
+            <div>
+              <h4>Used monthly by</h4>
+              <h1>103,000 voters</h1>
             </div>
-            <div className="sm:border-r"></div>
-            <div className="px-6 py-12">
-              <h4 className="pb-3">With Agora</h4>
-              <ul className="flex flex-col">
-                <li>
-                  Use our tooling to attract and retain delegates and
-                  recruiters.
-                </li>
-                <li>Notifications remind delegates to vote.</li>
-                <li>
-                  Track of decentralization and effectiveness through community
-                  KPIs
-                </li>
-              </ul>
+            <div className="border-l"></div>
+            <div>
+              <h4>Profiles created by</h4>
+              <h1>3,500 delegates</h1>
+            </div>
+            <div className="border-l"></div>
+            <div>
+              <h4>Delegate events</h4>
+              <h1>100,000</h1>
+            </div>
+            <div className="border-l"></div>
+            <div>
+              <h4>Token value delegated</h4>
+              <h1>$40,000,000</h1>
+            </div>
+            <div className="border-l"></div>
+            <div>
+              <h4>Treasury governed through Agora</h4>
+              <h1>$4,000,000,000+</h1>
             </div>
           </div>
         </section>
 
+        <section>
+          <div className="max-w-3xl mb-4 flex flex-col gap-3">
+            <h1>
+              Built on the most battle-tested, trusted and proven standard.
+            </h1>
+          </div>
+          <div className="border rounded-t-lg flex justify-around flex-col sm:flex-row">
+            <div className="sm:border-r"></div>
+            <div className="px-6 py-12">
+              <h4 className="pb-3">What does Agora do?</h4>
+              <p className="mb-8">
+                It helps communities work better together through governance.
+                You may need a single module like approval voting or a combination of
+                many. Every ecosystem is different and we get that. Thats why
+                Agora provides the full-stack solution to help
+                operationalize your governance end-to-end. Whereever you may be at along the
+                journey, Agora is here to support your community.
+              </p>
+              <Image src="/decentralization-process.png" width={700} height={90} alt="ENS logo" className="my-4" />
+              <h4 className="pb-3">Why Agora?</h4>
+              <ul className="flex flex-col">
+                <li>
+                  Fully-managed, end-to-end support of your governance token and
+                  application based on Compound Bravo and OZ Governor libraries.
+                </li>
+                <li>
+                  Open-source & Interopable. Agora is fully MIT-licensed Open
+                  Source Software. Never worry about being locked in.
+                </li>
+                <li>
+                  Let us handle the maintenance, so that you can focus on
+                  designing the best governance for your community.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
         <section className="rounded-b-lg px-6 py-12 border-x border-b mb-24 flex justify-around bg-gray-50">
+          <div>
+            <Image
+              src="/giants.png"
+              width={400}
+              height={90}
+              alt="open-source"
+              className="my-4"
+            />
+          </div>
+        </section>
+
+        {/* <section className="rounded-b-lg px-6 py-12 border-x border-b mb-24 flex justify-around bg-gray-50">
           <div>
             <p className="max-w-6xl">
               &ldquo;Running our first delegate race with Agora, we were able to
@@ -193,24 +212,96 @@ export default function Home() {
             </p>
             <h4 className="mt-4">Devin Walsh – Uniswap Foundation</h4>
           </div>
+        </section> */}
+
+        <section className="pb-24">
+          <div className="max-w-xl mb-4">
+            <h4>Step 1: Launch your governance</h4>
+            <h1>Fully-managed launch stack</h1>
+            <p>
+              Design your economics, customize your protocol and let us handle
+              the rest. Agora launches your token and decentralized governance
+              from end-to-end, and helps you build a thriving community.
+            </p>
+          </div>
+
+          <div className="flex flex-col sm:flex-row justify-between gap-2 my-2">
+            <div className="rounded-lg bg-gray-50 p-6 w-full">
+              <h2>Token launch</h2>
+              <p>
+                We&apos;ll help you do your airdrop right, get a good initial
+                voter base, and deploy your token with the right gov features.
+                <Image
+                  src="/token-launch.png"
+                  width={700}
+                  height={90}
+                  alt="ENS logo"
+                  className="my-4"
+                />
+              </p>
+              <ul>
+                <li>Customize and deploy your governance-ready token.</li>
+                <li>
+                  Deploy a flexible token claim and airdrop UI with built in
+                  delegation cadences.
+                </li>
+                <li>
+                  Run scenario tests and simulation modeling for different
+                  incentive structures of your token launch.
+                </li>
+                <li>Manage multi round airdrops</li>
+              </ul>
+            </div>
+
+            <div className="rounded-lg bg-gray-50 p-6 w-full">
+              <h2>Governance contract deployment</h2>
+              <p>
+                Deploy Agora governor in one-click. Flexible and customizable
+                parameters and modules available.
+              </p>
+              <Image
+                src="/gov-launch.png"
+                width={700}
+                height={90}
+                alt="ENS logo"
+                className="my-4"
+              />
+              <ul>
+                <li>
+                  With partial delegation, no more splitting up multi-sigs to
+                  run programs.
+                </li>
+                <li>
+                  Enable time-bound, split rights and re-delegation capabilities
+                  with liquid delegation.
+                </li>
+                <li>
+                  Deploy For/Against or multiple choice proposals based on your
+                  needs.
+                </li>
+              </ul>
+            </div>
+          </div>
         </section>
 
         <section className="mb-24">
           <div className="max-w-xl mb-4">
-            <h4>For existing onchain communities</h4>
-            <h1>Ecosystem Growth Tier</h1>
+            <h4>Step 2: Grow your ecosystem</h4>
+            <h1>Full-stack governance infrastructure</h1>
             <p>
-              Agora provides an all-in-one operating system to source, attract,
-              and collaborate with your delegates and ecosystem contributors.
+              Agora provides you with the tools to grow your ecosystem and make
+              your community thrive. Agora provides an all-in-one operating
+              system to source, attract, and collaborate with your delegates and
+              ecosystem contributors.
             </p>
           </div>
 
           <div className="flex flex-col sm:flex-row justify-between gap-x-2">
             <div className="rounded-lg bg-gray-50 px-6 py-8 sm:my-2 sm:w-1/2">
-              <h2>Governor upgrades</h2>
+              <h2>Governor modules</h2>
               <p>
-                Agora upgrades your governor with features to supercharge your
-                community
+                Customize your governor with features that your governance
+                needs.
               </p>
               <Image
                 src="/gov-upgrades.png"
@@ -264,7 +355,7 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col sm:flex-row justify-between gap-2">
-            <div className="rounded-lg bg-gray-50 p-6 sm:w-1/3">
+            <div className="rounded-lg bg-gray-50 px-6 py-8 sm:my-2 sm:w-1/2">
               <Image
                 src="/ecosystem-tools.png"
                 width={400}
@@ -289,7 +380,7 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="rounded-lg bg-gray-50 p-6 sm:w-1/3">
+            <div className="rounded-lg bg-gray-50 px-6 py-8 my-2 sm:w-1/2">
               <Image
                 src="/admin-tools.png"
                 width={400}
@@ -297,7 +388,7 @@ export default function Home() {
                 alt="ENS logo"
                 className="my-4"
               />
-              <h2 className="mb-4 mt-6">Admin mission control</h2>
+              <h2 className="mb-4 mt-6">Admin panel</h2>
               <ul>
                 <li>
                   We help you track where you&rsquo;re at on the
@@ -312,100 +403,28 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-
-            <div className="rounded-lg bg-gray-50 p-6 sm:w-1/3">
-              <Image
-                src="/open-source.png"
-                width={400}
-                height={90}
-                alt="ENS logo"
-                className="my-4"
-              />
-              <h2 className="mb-4 mt-6">Open-source & Interopable</h2>
-              <ul>
-                <li>
-                  Agora is fully MIT-licensed Open Source Software. Never worry
-                  about being locked in.
-                </li>
-                <li>
-                  We help you deploy Snapshot, Tally and Karma. So that you have
-                  a full fledge governance layer with multiple frontends.
-                </li>
-              </ul>
-            </div>
           </div>
         </section>
-
-        <section className="pb-24">
-          <div className="max-w-xl mb-4">
-            <h4>For soon-to-be-DAOs</h4>
-            <h1>DAO Launch Tier</h1>
-            <p>
-              Agora launches your token and decentralized governance from
-              end-to-end, and helps you build a thriving community.
-            </p>
+        <section>
+          <div className="mb-24">
+            <h4>Want something you dont see? Ask us in Discord</h4>
+            <button className="py-2 px-4 mt-6 bg-neutral-950 text-white rounded-lg">
+              <a href="mailto:charlie@voteagora.com"></a>
+              Request a feature
+            </button>
           </div>
-
-          <div className="flex flex-col sm:flex-row justify-between gap-2 my-2">
-            <div className="rounded-lg bg-gray-50 p-6 w-full">
-              <h2>Token launch</h2>
-              <p>
-                We&apos;ll help you do your airdrop right, get a good initial voter
-                base, and deploy your token with the right gov features.
-                <Image
-                  src="/token-launch.png"
-                  width={700}
-                  height={90}
-                  alt="ENS logo"
-                  className="my-4"
-                />
-              </p>
-              <ul>
-                <li>Customize and deploy your governance-ready token.</li>
-                <li>
-                  Deploy a flexible token claim and airdrop UI with built in
-                  delegation cadences.
-                </li>
-                <li>
-                  Run scenario tests and simulation modeling for different
-                  incentive structures of your token launch. Manage multi round
-                  airdrop.
-                </li>
-              </ul>
-            </div>
-
-            <div className="rounded-lg bg-gray-50 p-6 w-full">
-              <h2>Governance contract deployment</h2>
-              <p>
-                Deploy Agora governor in one-click. Flexible and customizable
-                parameters and modules available.
-              </p>
-              <Image
-                src="/gov-launch.png"
-                width={700}
-                height={90}
-                alt="ENS logo"
-                className="my-4"
-              />
-              <ul>
-                <li>
-                  With partial delegation, no more splitting up multi-sigs to
-                  run programs.
-                </li>
-                <li>
-                  Enable time-bound, split rights and re-delegation capabilities
-                  with liquid delegation.
-                </li>
-                <li>
-                  Deploy For/Against or multiple choice proposals based on your
-                  needs.
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="rounded-lg bg-gray-50 p-6 my-2">
-            <h2>And everything in the previous tier</h2>
+        </section>
+        <section>
+          <div className="mb-24">
+            <h4>Ready to get started?</h4>
+            <button className="py-2 px-4 mt-6 bg-neutral-950 text-white rounded-lg">
+              <a href="mailto:charlie@voteagora.com"></a>
+              Get in touch
+            </button>
+            <h4>
+              Customers get custom SLAs, prioritized integrations, and input on
+              our roadmap.
+            </h4>
           </div>
         </section>
       </main>
