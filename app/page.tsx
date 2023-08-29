@@ -529,24 +529,22 @@ export default function Home() {
           </div>
         </section>
       </main>
-      <footer className="container mx-auto max-w-screen-2xl bg-white px-4 lg:px-24">
-        <section>
-          <div className="mb-24">
-            <h4>Ready to get started?</h4>
-            <button className="py-2 px-4 mt-6 bg-neutral-950 text-white rounded-lg">
-              <a href="mailto:charlie@voteagora.com"></a>
-              Get in touch
-            </button>
-            <p>
-              Wherever you are on the decentralization process for your
-              governance, Agora can assist you.
-            </p>
-            <h4>
-              Customers get custom SLAs, prioritized integrations, and input on
-              our roadmap.
-            </h4>
-          </div>
-        </section>
+      <footer className="container mx-auto max-w-screen-2xl bg-white px-4 lg:px-24 pt-24">
+        <div className="bg-neutral-900 rounded-t-lg p-12">
+          <h4 className="text-neutral-400">Ready to get started?</h4>
+          <h1 className="text-neutral-100">
+            Wherever you are on the decentralization process for your
+            governance, Agora can help.
+          </h1>
+          <p className="text-neutral-400">
+            Customers get custom SLAs, prioritized integrations, and input on
+            our roadmap.
+          </p>
+          <button className="py-2 px-4 mt-6 bg-neutral-200 text-neutral-900 font-medium rounded-lg">
+            <a href="mailto:charlie@voteagora.com"></a>
+            Get in touch
+          </button>
+        </div>
       </footer>
     </div>
   );
