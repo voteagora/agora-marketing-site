@@ -271,16 +271,19 @@ export default function Home() {
               />
               <ul>
                 <li>
-                  <b>Token smart contract.</b> Customize your governance launch with flexible token claim and airdrop UI. Customizable built-in delegation cadences.
+                  <b>Token smart contract. </b>
+                  Customize your governance launch with flexible token claim and
+                  airdrop UI. Customizable built-in delegation cadences.
                 </li>
                 <li>
-                  <b>Token incentive customization.</b> Multi round airdrops or
-                  custom incentives. We provide you with scenario tests and
-                  simulation modeling to design the launch you envisioned.
+                  <b>Token incentive customization. </b>
+                  Multi round airdrops or custom. Prelaunch model and
+                  simlulation testing for the launch you envisioned.
                 </li>
                 <li>
-                  <b>Token claim UI.</b> Flexible token claim and airdrop UI
-                  with built in delegation cadences.
+                  <b>Token claim UI. </b>
+                  Flexible token claim and airdrop UI with built in delegation
+                  cadences.
                 </li>
               </ul>
             </div>
@@ -296,18 +299,18 @@ export default function Home() {
               />
               <ul>
                 <li>
-                  <b>Partial and liquid delegation. </b>No more splitting up
-                  multi-sigs. Enable time-bound, split rights
-                  and re-delegation modules.
+                  <b>Partial and liquid delegation. </b>
+                  No more splitting up multi-sigs. Enable time-bound, split
+                  rights and re-delegation modules.
                 </li>
                 <li>
-                  <b>Quorum management. </b>Dynamic quorums, flexible quorums,
-                  based on what you need.
+                  <b>Quorum management. </b>
+                  Dynamic quorums, flexible quorums, based on what you need.
                 </li>
                 <li>
-                  <b>Multiple voting systems. </b>Standard voting (Yes/No),
-                  Approval Voting, Quadratic Voting, customized to your
-                  governance needs.
+                  <b>Multiple voting systems. </b>
+                  Standard voting (Yes/No), Approval Voting, Quadratic Voting,
+                  or custom voting strategies.
                 </li>
               </ul>
             </div>
@@ -325,18 +328,18 @@ export default function Home() {
                 <ul>
                   <li>
                     <b>Delegate discovery and voting. </b>
-                    Beautiful delegation and voting interface.
+                    Beautiful, white-labelled end-to-end client app, tailored
+                    for your community’s design.
                   </li>
                   <li>
                     <b>Proposal list and creation. </b>
-                    Track all your proposal in one place. Easy to create
-                    proposals. Integrates with Github, Snapshot and other
-                    workflows.
+                    Easy to create proposals wizard. Integrates with Github,
+                    Discourse and other workflows.
                   </li>
                   <li>
                     <b>Hosted on your subdomain. </b>
-                    Built on your domain, native to your protocol, but we take
-                    care of infrastructure, hosting and maintaining uptime.
+                    Tailored for your protocol, but we take care of hosting,
+                    infra and maintaining uptime.
                   </li>
                 </ul>
               </div>
@@ -366,24 +369,19 @@ export default function Home() {
                 alt="ENS logo"
                 className="my-4"
               />
-              <p>
-                Run a variety of programs and initiatives that your community
-                wants. Flexible administration by the community, Agora in-house
-                or a combination.
-              </p>
               <ul>
                 <li>
-                  <b>Delegate Elections.</b>
+                  <b>Delegate Elections. </b>
                   Attract new delegates to your ecosystem and help reward and
                   engage existing ones.
                 </li>
                 <li>
-                  <b>On-chain RFPs.</b>
+                  <b>On-chain RFPs. </b>
                   Plug and play any grants program you like. Attract an
                   ecosystem of builders.
                 </li>
                 <li>
-                  <b>Perpetual streams.</b>
+                  <b>Perpetual streams. </b>
                   Easy to implement, easy to cancel streams for your
                   contributors and vendors.
                 </li>
@@ -398,25 +396,19 @@ export default function Home() {
                 alt="ENS logo"
                 className="my-4"
               />
-              <p>
-                Every governance process is similar, but different. We get that.
-                Customize your ecosystem with features that your governance
-                needs.
-              </p>
               <div className="flex">
                 <ul>
                   <li>
-                    <b>Build governance the way you want.</b>
-                    Temp check? Different quorum process? You decide. We
-                    integrate and customize the flow to your needs.
+                    <b>Build governance the way you want. </b>
+                    We integrate and customize the flow to your needs.
                   </li>
                   <li>
-                    <b>End-to-end governance process.</b>
-                    We help you deploy Snapshot, Tally and Karma. So that you
-                    have a full fledge governance layer with multiple frontends.
+                    <b>End-to-end governance process. </b>
+                    We integrate well with Snapshot, Tally or Karma or other
+                    tools you already use or want to implement.
                   </li>
                   <li>
-                    <b>Zero operations.</b>
+                    <b>Zero operations. </b>
                     No technical expertise needed. We handle the code,
                     operations and deployment, end-to-end.
                   </li>
@@ -435,25 +427,21 @@ export default function Home() {
                 alt="ENS logo"
                 className="my-4"
               />
-              <p>
-                Do you know who still needs to vote? Need to nudge delegates to
-                hit quorum? Who are your best delegates and contributors?
-              </p>
               <ul>
                 <li>
-                  <b>Measurable decentralization.</b>
+                  <b>Measurable decentralization. </b>
                   We help you track where you’re at on the decentralization
                   scale and provide tractable next steps.
                 </li>
                 <li>
-                  <b>Mission control.</b>
+                  <b>Mission control. </b>
                   Search, track, message delegates. Track voting progress. Query
-                  data and build analytics `beta`
+                  data and build analytics.
                 </li>
                 <li>
-                  <b>Notifications & Alerts.</b>
+                  <b>Notifications & Alerts. </b>
                   Notify delegates before votes and important announcements.
-                  Integrates with Discord and Telegram. `beta``
+                  Integrates with Discord and Telegram.
                 </li>
               </ul>
             </div>
@@ -466,28 +454,20 @@ export default function Home() {
                 alt="ENS logo"
                 className="my-4"
               />
-              <p>
-                Get the latest updates and learnings from other DAOs. We’ll keep
-                shipping improvements so that you don’t need to worry about
-                bugs, maintenance, and the latest features.
-              </p>
               <div className="flex">
                 <ul>
                   <li>
-                    <b>Transparent and continuous release cycles.</b>
-                    As your community grows, so will your governance needs need
-                    to adapt. We get that and we are committed to continuously
-                    improving the software - both on the governor and client
-                    app.
+                    <b>Transparent and continuous release cycles. </b>
+                    Regular updates on both the governor and client app. Get the
+                    latest improvements from other DAOs.
                   </li>
                   <li>
-                    <b>No technical expertise needed.</b>
-                    We work with Foundations, Labs teams and Delegates to help
-                    deploy Agora into your community. We handle the code,
-                    operations and deployment, end-to-end.
+                    <b>No technical expertise needed. </b>
+                    Work closely with Foundations, Labs teams, and Delegates. We
+                    handle the code, operations and deployment, end-to-end.
                   </li>
                   <li>
-                    <b>High availability.</b>
+                    <b>High availability. </b>
                     Always accessible, even during periods of heavy traffic such
                     as voting season and holidays.
                   </li>
