@@ -253,10 +253,9 @@ export default function Home() {
             <h4>Phase 1: Launch your governance</h4>
             <h1>Fully-managed launch stack</h1>
             <p>
-              Design your economics, customize your protocol governance and let
-              us handle the rest. Agora launches your token and decentralized
-              governance from end-to-end, which enables you to build a thriving
-              community.
+              Design your economics, customize your governance and let us handle
+              the rest. Agora launches your token and decentralized governance
+              from end-to-end, which enables you to build a thriving community.
             </p>
           </div>
 
@@ -270,19 +269,9 @@ export default function Home() {
                 alt="ENS logo"
                 className="my-4"
               />
-              <p className="mb-2">
-                We&apos;ll help you do your airdrop right, get a good initial
-                voter base, and deploy your token with the gov features you
-                need.
-              </p>
               <ul>
                 <li>
-                  <b>Token smart contract.</b> Customize and deploy your token
-                  correctly.
-                </li>
-                <li>
-                  <b>Deploy a flexible token claim and airdrop UI </b> with
-                  built in delegation cadences.
+                  <b>Token smart contract.</b> Customize your governance launch with flexible token claim and airdrop UI. Customizable built-in delegation cadences.
                 </li>
                 <li>
                   <b>Token incentive customization.</b> Multi round airdrops or
@@ -297,7 +286,7 @@ export default function Home() {
             </div>
 
             <div className="rounded-lg bg-neutral-50 p-6 w-full">
-              <h2>One-click governor</h2>
+              <h2>One-click governor deployment</h2>
               <Image
                 src="/gov-launch.png"
                 width={700}
@@ -305,22 +294,18 @@ export default function Home() {
                 alt="ENS logo"
                 className="my-4"
               />
-              <p className="mb-2">
-                Deploy Agora governor in one-click. Flexible and customizable
-                parameters and modules available.
-              </p>
               <ul>
                 <li>
-                  <b>Partial and liquid delegation.</b> No more splitting up
-                  multi-sigs to run programs. Enable time-bound, split rights
-                  and re-delegation capabilities.
+                  <b>Partial and liquid delegation. </b>No more splitting up
+                  multi-sigs. Enable time-bound, split rights
+                  and re-delegation modules.
                 </li>
                 <li>
-                  <b>Quorum management.</b> Dynamic quorums, flexible quorums,
+                  <b>Quorum management. </b>Dynamic quorums, flexible quorums,
                   based on what you need.
                 </li>
                 <li>
-                  <b>Multiple voting systems.</b> Standard voting (Yes/No),
+                  <b>Multiple voting systems. </b>Standard voting (Yes/No),
                   Approval Voting, Quadratic Voting, customized to your
                   governance needs.
                 </li>
@@ -336,25 +321,20 @@ export default function Home() {
                 alt="ENS logo"
                 className="my-4"
               />
-              <p className="mb-2">
-                Customize Agora to your community&apos;s branding.
-              </p>
-
               <div className="flex">
                 <ul>
                   <li>
-                    <b>Delegate discovery and voting.</b>
-                    Beautiful delegation and voting interface. Robust sorting
-                    and search mechanism for delegate discovery.
+                    <b>Delegate discovery and voting. </b>
+                    Beautiful delegation and voting interface.
                   </li>
                   <li>
-                    <b>Proposal list and creation.</b>
+                    <b>Proposal list and creation. </b>
                     Track all your proposal in one place. Easy to create
-                    proposal wizard. Integrates with Github, Snapshot or other
+                    proposals. Integrates with Github, Snapshot and other
                     workflows.
                   </li>
                   <li>
-                    <b>Hosted on your subdomain.</b>
+                    <b>Hosted on your subdomain. </b>
                     Built on your domain, native to your protocol, but we take
                     care of infrastructure, hosting and maintaining uptime.
                   </li>
