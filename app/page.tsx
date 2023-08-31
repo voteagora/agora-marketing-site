@@ -61,8 +61,8 @@ export default function Home() {
             </button>
           </div>
         </section>
-        <section className="mb-24 mt-12">
-          <div className="flex flex-col sm:flex-row items-center lg:justify-between px-12 pt-12 sm:pt-3 sm:pb-3 rounded-lg border gap-y-8 sm:bg-neutral-50">
+        <section className="mb-24 mt-12 flex flex-col-reverse sm:flex-col">
+          <div className="flex flex-col sm:flex-row items-center lg:justify-between px-8 pt-8 sm:pt-3 pb-8 sm:pb-3 rounded-lg border gap-y-6 sm:bg-neutral-50">
             <h4 className=" sm:pr-6 sm:py-6">Trusted by leaders at:</h4>
             <a href="https://vote.optimism.io/" target="_blank">
               <Image
@@ -110,7 +110,7 @@ export default function Home() {
               />
             </a>
           </div>
-          <div className="p-3 bg-neutral-50 -mt-4 rounded-b-xl border-x border-b">
+          <div className="p-3 bg-neutral-50 -mt-4 rounded-xl sm:rounded-b-xl sm:border-x sm:border-b mb-4 sm:mb-0">
             <Image
               src="/op-agora.png"
               width={1000}
@@ -149,7 +149,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="bg-neutral-900 rounded-t-lg p-12">
+        <section className="bg-neutral-900 rounded-t-lg p-8 sm:p-12">
           <h2 className="mb-1 text-white font-semibold">
             Whereever you may be at along the process, Agora is here to support
             your community.
@@ -157,9 +157,9 @@ export default function Home() {
           <p className="text-neutral-400">
             Agora provides tools along the entire spectrum of DAO governance
           </p>
-          <div className="flex border-t border-neutral-800 justify-between mt-8">
+          <div className="flex flex-col sm:flex-row sm:border-t border-neutral-800 justify-between mt-8">
             <div className="-mt-[1px]">
-              <div className="pt-4 border-t border-neutral-50 w-6"></div>
+              <div className="pt-4 sm:border-t border-neutral-50 w-6"></div>
               <Image
                 src="/pre-launch.png"
                 width={24}
@@ -173,7 +173,7 @@ export default function Home() {
               </div>
             </div>
             <div className="-mt-[1px]">
-              <div className="pt-4 border-t border-neutral-50 w-6"></div>
+              <div className="pt-4 sm:border-t border-neutral-50 w-6"></div>
               <Image
                 src="/launch.png"
                 width={24}
@@ -185,7 +185,7 @@ export default function Home() {
               <div className="text-neutral-200">Deploy Onchain governance</div>
             </div>
             <div className="-mt-[1px]">
-              <div className="pt-4 border-t border-neutral-50 w-6"></div>
+              <div className="pt-4 sm:border-t border-neutral-50 w-6"></div>
               <Image
                 src="/growth.png"
                 width={24}
@@ -197,7 +197,7 @@ export default function Home() {
               <div className="text-neutral-200">Jumpstart your ecosystem</div>
             </div>
             <div className="-mt-[1px]">
-              <div className="pt-4 border-t border-neutral-50 w-6"></div>
+              <div className="pt-4 sm:border-t border-neutral-50 w-6"></div>
               <Image
                 src="/Stabilization.png"
                 width={24}
@@ -212,7 +212,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="mb-24 p-12 rounded-b-lg border flex justify-between">
+        <section className="mb-24 p-12 rounded-b-lg border flex sm:flex-row flex-col justify-between">
           <div className="max-w-2xl">
             <h2 className="mb-1">Battle-tested and fully open</h2>
             <ul>
@@ -226,7 +226,7 @@ export default function Home() {
               </li>
             </ul>
           </div>
-          <div className="flex flex-col sm:flex-row items-center lg:justify-between px-8 pt-8 sm:pt-1 sm:pb-1 rounded-lg border gap-y-8 sm:bg-neutral-50">
+          <div className="flex flex-col mt-8 sm:mt-0 sm:flex-row items-center lg:justify-between px-8 pt-8 pb-8 sm:pb-0 sm:pt-1 sm:pb-1 rounded-lg border gap-y-8 sm:bg-neutral-50">
             <Image
               src="/compgov.png"
               width={162}
@@ -249,14 +249,10 @@ export default function Home() {
         </section>
 
         <section className="pb-24">
-          <div className="max-w-xl mb-4">
+          <div className="max-w-xl mb-8">
             <h4>Phase 1: Launch your governance</h4>
             <h1>Fully-managed launch stack</h1>
-            <p>
-              Design your economics, customize your governance and let us handle
-              the rest. Agora launches your token and decentralized governance
-              from end-to-end, which enables you to build a thriving community.
-            </p>
+            <p>Let Agora deploy your token and governance from end-to-end</p>
           </div>
 
           <div className="flex flex-col sm:flex-row justify-between gap-2 my-2">
@@ -271,17 +267,16 @@ export default function Home() {
               />
               <ul>
                 <li>
-                  <b>Token smart contract. </b>
-                  Customize your governance launch with flexible token claim and
-                  airdrop UI. Customizable built-in delegation cadences.
+                  <b>Token smart contract: </b>
+                  Deploy your token with the right parameters for governance.
                 </li>
                 <li>
-                  <b>Token incentive customization. </b>
+                  <b>Token incentive customization: </b>
                   Multi round airdrops or custom. Prelaunch model and
                   simlulation testing for the launch you envisioned.
                 </li>
                 <li>
-                  <b>Token claim UI. </b>
+                  <b>Token claim UI: </b>
                   Flexible token claim and airdrop UI with built in delegation
                   cadences.
                 </li>
@@ -309,8 +304,8 @@ export default function Home() {
                 </li>
                 <li>
                   <b>Multiple voting systems. </b>
-                  Standard voting (Yes/No), Approval Voting, Quadratic Voting,
-                  or custom voting strategies.
+                  Standard voting, Approval Voting, Quadratic Voting, or custom
+                  voting strategies.
                 </li>
               </ul>
             </div>
@@ -329,7 +324,7 @@ export default function Home() {
                   <li>
                     <b>Delegate discovery and voting. </b>
                     Beautiful, white-labelled end-to-end client app, tailored
-                    for your community’s design.
+                    for your community&apos;s design.
                   </li>
                   <li>
                     <b>Proposal list and creation. </b>
@@ -388,9 +383,9 @@ export default function Home() {
               </ul>
             </div>
             <div className="rounded-lg bg-neutral-50 px-6 py-8 my-2 sm:w-1/2">
-              <h3>Customizable Integrations</h3>
+              <h3>Customized to your process</h3>
               <Image
-                src="/gov-client.png"
+                src="/customized.png"
                 width={720}
                 height={90}
                 alt="ENS logo"
@@ -403,7 +398,7 @@ export default function Home() {
                     We integrate and customize the flow to your needs.
                   </li>
                   <li>
-                    <b>End-to-end governance process. </b>
+                    <b>Integrated with the full toolchain. </b>
                     We integrate well with Snapshot, Tally or Karma or other
                     tools you already use or want to implement.
                   </li>
@@ -475,22 +470,24 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="rounded-lg bg-neutral-50 p-6 w-full">
-              <h2>Request Features</h2>
+            <div className="rounded-lg bg-neutral-50 p-6 w-full flex flex-col justify-center">
+              <div className="p-6 border rounded-lg bg-white">
+              <h2 className="mb-4">Request Features</h2>
               <p>
-                Looking for something else? <b>Request a feature.</b>
+                Looking for something else? Request a feature.
                 Let us know what you want to see.
               </p>
-              <button className="py-2 px-4 mt-6 bg-neutral-950 text-white rounded-lg">
-                <a href="mailto:charlie@voteagora.com"></a>
+              <button className="py-2 px-4 mt-6 bg-white shadow-sm font-medium rounded-lg border">
+                <a href="https://discord.gg/kFjVGrqjjJ"></a>
                 Ask in Discord
               </button>
+              </div>
             </div>
           </div>
         </section>
       </main>
       <footer className="container mx-auto max-w-screen-2xl bg-white px-4 lg:px-24 pt-24">
-        <div className="bg-neutral-900 rounded-t-lg p-12">
+        <div className="bg-neutral-900 rounded-t-lg p-8 sm:p-12">
           <h4 className="text-neutral-400">Ready to get started?</h4>
           <h1 className="text-neutral-100">
             Wherever you are on the decentralization process for your
