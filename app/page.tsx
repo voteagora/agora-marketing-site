@@ -56,8 +56,7 @@ export default function Home() {
               </p>
             </div>
             <button className="py-2 px-4 mt-6 bg-neutral-950 text-white rounded-lg">
-              <a href="mailto:charlie@voteagora.com"></a>
-              Get in touch
+              <a href="mailto:charlie@voteagora.com">Get in touch</a>
             </button>
           </div>
         </section>
@@ -164,7 +163,7 @@ export default function Home() {
                 src="/pre-launch.png"
                 width={24}
                 height={24}
-                alt="ENS logo"
+                alt="Pre-launch"
                 className="mb-4"
               />
               <h4 className="text-neutral-400">Pre-launch</h4>
@@ -178,7 +177,7 @@ export default function Home() {
                 src="/launch.png"
                 width={24}
                 height={24}
-                alt="ENS logo"
+                alt="launch"
                 className="mb-4"
               />
               <h4 className="text-neutral-400">Launch</h4>
@@ -190,7 +189,7 @@ export default function Home() {
                 src="/growth.png"
                 width={24}
                 height={24}
-                alt="ENS logo"
+                alt="Growth"
                 className="mb-4"
               />
               <h4 className="text-neutral-400">Growth</h4>
@@ -472,15 +471,15 @@ export default function Home() {
 
             <div className="rounded-lg bg-neutral-50 p-6 w-full flex flex-col justify-center">
               <div className="p-6 border rounded-lg bg-white">
-              <h2 className="mb-4">Request Features</h2>
-              <p>
-                Looking for something else? Request a feature.
-                Let us know what you want to see.
-              </p>
-              <button className="py-2 px-4 mt-6 bg-white shadow-sm font-medium rounded-lg border">
-                <a href="https://discord.gg/kFjVGrqjjJ"></a>
-                Ask in Discord
-              </button>
+                <h2 className="mb-4">Request Features</h2>
+                <p>
+                  Looking for something else? Request a feature. Let us know
+                  what you want to see.
+                </p>
+                <button className="py-2 px-4 mt-6 bg-white shadow-sm font-medium rounded-lg border">
+                  <a href="https://discord.gg/kFjVGrqjjJ"></a>
+                  Ask in Discord
+                </button>
               </div>
             </div>
           </div>
@@ -498,8 +497,7 @@ export default function Home() {
             our roadmap.
           </p>
           <button className="py-2 px-4 mt-6 bg-neutral-200 text-neutral-900 font-medium rounded-lg">
-            <a href="mailto:charlie@voteagora.com"></a>
-            Get in touch
+            <a href="mailto:charlie@voteagora.com">Get in touch</a>
           </button>
         </div>
       </footer>
