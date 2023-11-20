@@ -47,34 +47,34 @@ export default function Index({ allPosts }: Props) {
             scale onchain collaboration. Leading communities like{" "}
             <a
               target="_blank"
-              className="bg-stone-100 px-2 py-[2px] rounded-full hover:text-red-600"
+              className="hover:px-2 hover:py-[2px] rounded-full text-red-700 hover:bg-red-600 hover:text-red-50 transition-all duration-300"
               href="https://vote.optimism.io/"
             >
-              Optimism <ArrowUpRightIcon className="inline h-4 w-4 mb-[2px]" />
+              Optimism<ArrowUpRightIcon className="inline h-4 w-4 mb-[2px]" />
             </a>
             ,{" "}
             <a
               target="_blank"
-              className="bg-stone-100 px-2 py-[2px] rounded-full hover:text-indigo-600"
+              className="hover:px-2 hover:py-[2px] rounded-full text-indigo-700 hover:bg-indigo-600 hover:text-indigo-50 transition-all duration-300"
               href="https://agora.ensdao.org/"
             >
-              ENS <ArrowUpRightIcon className="inline h-4 w-4 mb-[2px]" />
+              ENS<ArrowUpRightIcon className="inline h-4 w-4 mb-[2px]" />
             </a>
             ,{" "}
             <a
               target="_blank"
-              className="bg-stone-100 px-2 py-[2px] rounded-full hover:text-pink-600"
+              className="hover:px-2 hover:py-[2px] rounded-full text-pink-700 hover:bg-pink-600 hover:text-pink-50 transition-all duration-300"
               href="https://vote.uniswapfoundation.org/"
             >
-              Uniswap <ArrowUpRightIcon className="inline h-4 w-4 mb-[2px]" />
+              Uniswap<ArrowUpRightIcon className="inline h-4 w-4 mb-[2px]" />
             </a>
             , and{" "}
             <a
               target="_blank"
-              className="bg-stone-100 px-2 py-[2px] rounded-full hover:text-yellow-600"
+              className="hover:px-2 hover:py-[2px] rounded-full text-yellow-700 hover:bg-yellow-600 hover:text-yellow-50 transition-all duration-300"
               href="https://www.nounsagora.com/"
             >
-              Nouns <ArrowUpRightIcon className="inline h-4 w-4 mb-[2px]" />
+              Nouns<ArrowUpRightIcon className="inline h-4 w-4 mb-[2px]" />
             </a>{" "}
             rely on Agora to coordinate their community around critical protocol
             upgrades, ecosystem funding, and more.

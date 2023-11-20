@@ -5,9 +5,9 @@ const Footer = () => {
   return (
     <footer>
       <Container>
-        {/* <div className='
-        mb-24 font-mono text-sm text-stone-400 text-center
-        '>~With care and gusto, from San Francisco and Toronto~</div> */}
+        <div className='
+        mb-24 font-serif italic text-sm text-stone-400 text-center
+        '>With care and gusto, from San Francisco and Toronto</div>
       </Container>
     </footer>
   )
