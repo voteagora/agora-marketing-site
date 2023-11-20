@@ -1,6 +1,7 @@
 import type Author from './author'
 
 type PostType = {
+  ogImage: any
   slug: string
   title: string
   location: string
