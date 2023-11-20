@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  p {
+    @apply mb-2;
+  }
+  h1{
+    @apply text-stone-800;
+    @apply text-2xl;
+    @apply mb-2 mt-6;
+    @apply font-serif;
+  }
+  h2{
+    @apply text-stone-800;
+    @apply text-lg;
+    @apply mb-1 mt-6;
+    @apply font-serif;
+  }
+  html{
+    @apply text-stone-600;
+    @apply bg-stone-50;
+  }
+}

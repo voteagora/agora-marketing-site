@@ -1,0 +1,22 @@
+import Avatar from "./avatar";
+import DateFormatter from "./date-formatter";
+import type Author from "../interfaces/author";
+
+type Props = {
+  title: string;
+  date: string;
+  author: Author;
+};
+
+const PostHeader = ({ title, date, author }: Props) => {
+  return (
+    <div className="md:flex flex-row items-center justify-between">
+      <h1 className="m-0">{title}</h1>
+      <div className="text-right">
+        <a target="BlANK_" href="https://github.com/kent"><Avatar name={author.name} picture={author.picture} /> </a>
+      </div>
+    </div>
+  );
+};
+
+export default PostHeader;
