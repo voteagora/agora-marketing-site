@@ -23,9 +23,16 @@ export default function Index({ allPosts }: Props) {
             research. Others still come to rebuild the Internet on public
             protocols instead of private fiefdoms. We all converged on Ethereum
             to create better incentives, fund public goods, foster coordination,
-            and some day, to{" "}
-            <a href="https://slatestarcodex.com/2014/07/30/meditations-on-moloch/">
-              slay Moloch
+            and some day, to slay{" "}
+            <a target="_blank" href="https://slatestarcodex.com/2014/07/30/meditations-on-moloch/">
+              <span
+                className="
+                bg-gradient-to-r from-red-700 to-yellow-700 inline-block text-transparent bg-clip-text mr-1
+              "
+              >
+                {" "}
+                Moloch 
+              </span>👹
             </a>
             , the god of coordination failure.
           </p>
@@ -40,7 +47,7 @@ export default function Index({ allPosts }: Props) {
             along the way. We started Agora because we&apos;re convince that
             Ethereum can be much more expansive and people-centric.
           </p>
-          <h1>Let's do something about it.</h1>
+          <h1>It's time to build (the commons)</h1>
           <p>
             So what are we doing about it? In short, we make the best end-to-end
             governance platform for crypto protocols – the first instance of at
@@ -50,7 +57,8 @@ export default function Index({ allPosts }: Props) {
               className="hover:px-2 hover:py-[2px] rounded-full text-red-700 hover:bg-red-600 hover:text-red-50 transition-all duration-300"
               href="https://vote.optimism.io/"
             >
-              Optimism<ArrowUpRightIcon className="inline h-4 w-4 mb-[2px]" />
+              Optimism
+              <ArrowUpRightIcon className="inline h-4 w-4 mb-[2px]" />
             </a>
             ,{" "}
             <a
@@ -58,7 +66,8 @@ export default function Index({ allPosts }: Props) {
               className="hover:px-2 hover:py-[2px] rounded-full text-indigo-700 hover:bg-indigo-600 hover:text-indigo-50 transition-all duration-300"
               href="https://agora.ensdao.org/"
             >
-              ENS<ArrowUpRightIcon className="inline h-4 w-4 mb-[2px]" />
+              ENS
+              <ArrowUpRightIcon className="inline h-4 w-4 mb-[2px]" />
             </a>
             ,{" "}
             <a
@@ -66,7 +75,8 @@ export default function Index({ allPosts }: Props) {
               className="hover:px-2 hover:py-[2px] rounded-full text-pink-700 hover:bg-pink-600 hover:text-pink-50 transition-all duration-300"
               href="https://vote.uniswapfoundation.org/"
             >
-              Uniswap<ArrowUpRightIcon className="inline h-4 w-4 mb-[2px]" />
+              Uniswap
+              <ArrowUpRightIcon className="inline h-4 w-4 mb-[2px]" />
             </a>
             , and{" "}
             <a
@@ -74,7 +84,8 @@ export default function Index({ allPosts }: Props) {
               className="hover:px-2 hover:py-[2px] rounded-full text-yellow-700 hover:bg-yellow-600 hover:text-yellow-50 transition-all duration-300"
               href="https://www.nounsagora.com/"
             >
-              Nouns<ArrowUpRightIcon className="inline h-4 w-4 mb-[2px]" />
+              Nouns
+              <ArrowUpRightIcon className="inline h-4 w-4 mb-[2px]" />
             </a>{" "}
             rely on Agora to coordinate their community around critical protocol
             upgrades, ecosystem funding, and more.
@@ -124,7 +135,9 @@ export default function Index({ allPosts }: Props) {
                 <div className="text-right">83,000</div>
               </div>
             </div>
-            <div className="font-mono text-sm pl-3 pt-1 text-stone-400">Metrics as of 11/20/23</div>
+            <div className="font-mono text-sm pl-3 pt-1 text-stone-400">
+              Metrics as of 11/20/23
+            </div>
           </div>
 
           <Jobs posts={allPosts} />
