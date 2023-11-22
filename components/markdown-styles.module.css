@@ -1,0 +1,6 @@
+.markdown {
+}
+.markdown li {
+  @apply list-disc;
+  @apply my-2
+}
