@@ -1,4 +1,6 @@
-# Agora Landing Page
+# Agora About page
+Check it out at voteagora.com
+
 ## Instructions
 
 to run it locally:
