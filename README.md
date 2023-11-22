@@ -1,5 +1,5 @@
 # Agora About page
-Check it out at voteagora.com
+Check it out at [voteagora.com](https://www.voteagora.com/)
 
 ## Instructions
 
