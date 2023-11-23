@@ -22,13 +22,17 @@ We're hiring a frontend-leaning fullstack engineer to work with our engineering 
 
 ## What we are looking for
 
-We are looking for a fullstack developer who has a passion for pushing the boundaries of onchain governance and decentralized, collective creation forward. We’d love to work with you if…
+We are looking for a fullstack developer who has a passion for pushing the boundaries of onchain governance and decentralized, collective creation forward. We’d love to work with you if...
 
+
+- You have experience working with real-time applications
+- You have experience with React, NextJS, MVC style frameworks, REST, Postgres
 - You have a strong work ethic and care about making day by day progress on what you’re building, but can also reserve a part of your brain untethered from the earth – thinking what’s at the boundary of the possible.
 - You are familiar with how applications in crypto interface with protocols. You don't need to be a solidity expert, but you've got a long wallet history and have used and built many dapps.
 - You care deeply about craft and quality – you're frustrated that after all these years, most crypto applications are not even close to their peers in web2.
 - You are proud and passionate about Open Source. Bonus if you’ve made contributions to projects.
 - You love onchain governance like us :)
+- You have strong feelings about `.tsx` vs. `.jsx` files 😅
 
 ## What we offer
 
