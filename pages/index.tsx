@@ -44,7 +44,7 @@ export default function Index({ allPosts }: Props) {
             lost along the way.
           </p>
           <p>
-            We&apos;ve push the technology to new frontiers, but lost our heart
+            We&apos;ve pushed the technology to new frontiers, but lost our heart
             along the way. We started Agora because we&apos;re convince that
             Ethereum can be much more expansive and people-centric.
           </p>
