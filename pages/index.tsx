@@ -12,6 +12,7 @@ type Props = {
 
 export default function Index({ allPosts }: Props) {
   console.log(allPosts);
+  const title = 'Agora, the onchain governance company';
   return (
     <>
       <Layout>
