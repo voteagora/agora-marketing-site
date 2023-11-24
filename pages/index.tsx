@@ -45,7 +45,7 @@ export default function Index({ allPosts }: Props) {
           </p>
           <p>
             We&apos;ve pushed the technology to new frontiers, but lost our heart
-            along the way. We started Agora because we&apos;re convince that
+            along the way. We started Agora because we&apos;re convinced that
             Ethereum can be much more expansive and people-centric.
           </p>
           <h1>It's time to build (the commons)</h1>

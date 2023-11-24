@@ -1,7 +1,7 @@
 ---
-title: 'Fullstack Engineer'
+title: 'Fullstack engineer'
 date: '2023-11-17T05:35:07.322Z'
-location: 'Remote, SF or Toronto prefered'
+location: 'Remote, SF or Toronto preferred'
 author:
   name: Kent Fenwick
   picture: '/assets/blog/authors/kent.jpeg'
