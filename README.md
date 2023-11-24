@@ -7,7 +7,8 @@ to run it locally:
 
 ```bash
 yarn
-npx run dev
+# npx run dev
+npm install --save next react react-dom
 ```
 
 This command will start the Next.js development server. By default, it runs on http://localhost:3000
