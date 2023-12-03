@@ -1,5 +1,6 @@
 import Footer from "./footer";
 import Meta from "./meta";
+import { Analytics } from "@vercel/analytics/react";
 
 type Props = {
   preview?: boolean;
@@ -13,6 +14,7 @@ const Layout = ({ preview, children }: Props) => {
 
       <main>{children}</main>
       <Footer />
+      <Analytics />
     </>
   );
 };
