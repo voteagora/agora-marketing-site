@@ -27,31 +27,32 @@ export default function Index({ allPosts }: Props) {
               <a href="https://vote.uniswapfoundation.org/" target="_blank">
                 <img
                   src="/assets/unishield.png"
-                  className="hover:scale-105 hover:drop-shadow-lg absolute transition-all w-16 duration-300 z-10 -top-8 left-24 group-hover:-top-12 -rotate-12 drop-shadow"
+                  className="w-10 md:w-16 hover:scale-105 hover:drop-shadow-lg absolute transition-all duration-300 z-10 -top-4 md:-top-8 left-24 group-hover:-top-6 md:group-hover:-top-12 -rotate-12 drop-shadow"
                 />
               </a>
               <a href="https://vote.optimism.io/" target="_blank">
                 <img
                   src="/assets/sunny.svg"
-                  className="hover:scale-105 hover:drop-shadow-lg absolute transition-all duration-300 z-10 top-16 -left-10 group-hover:-left-16 -rotate-12 drop-shadow"
+                  className="w-14 md:w-auto hover:scale-105 hover:drop-shadow-lg absolute transition-all duration-300 z-10 top-16 -left-4 md:-left-10 group-hover:-left-8 md:group-hover:-left-16 -rotate-12 drop-shadow"
                 />
               </a>
               <a href="https://www.nounsagora.com/" target="_blank">
                 <img
                   src="/assets/ramen_noun.svg"
-                  className="hover:scale-105 hover:drop-shadow-lg absolute transition-all duration-300 z-10 bottom-16 -right-12 group-hover:-right-16 -rotate-6 h-28 drop-shadow"
+                  className="w-14 md:w-auto hover:scale-105 hover:drop-shadow-lg absolute transition-all duration-300 z-10 bottom-16 -right-2 group-hover:-right-4 md:-right-12 md:group-hover:-right-16 -rotate-6 h-28 drop-shadow"
                 />
               </a>
               <a href="https://agora.ensdao.org/" target="_blank">
                 <img
                   src="/assets/eth.svg"
-                  className="hover:scale-105 hover:drop-shadow-lg absolute transition-all duration-300 z-10 -top-8 right-12 group-hover:-top-12 group-hover:right-8 rotate-6 drop-shadow"
+                  className="w-14 md:w-auto hover:scale-105 hover:drop-shadow-lg absolute transition-all duration-300 z-10 md:-top-8 -top-2 right-12 group-hover:-top-4 md:group-hover:-top-12 group-hover:right-8 rotate-6 drop-shadow"
                 />
               </a>
-              <div className=" transition-all duration-300 -rotate-1 -translate-y-4 -translate-x-2 group-hover:scale-105 group-hover:rotate-0">
+              <div className=" transition-all duration-300 -rotate-1 md:-translate-y-4 md:-translate-x-2 group-hover:scale-105 group-hover:rotate-0">
                 <FlipCard
                   width="100%"
-                  height="340px"
+                  height="240px"
+                  className="md:mb-32"
                   front={
                     <img
                       src="/assets/postcard_image1.png"
