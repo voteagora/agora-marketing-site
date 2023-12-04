@@ -101,7 +101,7 @@ export default function Index({ allPosts }: Props) {
               something was lost along the way.
             </p>
             <p>
-              We&apos;ve push the technology to new frontiers, but lost our
+              We&apos;ve pushed the technology to new frontiers, but lost our
               heart along the way. We started Agora because we&apos;re convince
               that Ethereum can be much more expansive and people-centric.
             </p>
@@ -159,7 +159,7 @@ export default function Index({ allPosts }: Props) {
             </p>
             <p>
               But just because it&apos;s possible doesn&apos;t mean it&apos;s
-              going to happen. Administering the commons is one of the most
+              going to happen. Administering the commons is one of the
               oldest unsolved problems we know of. Except this time, Ethereum
               has given us programmable incentives, and so we tackle these old
               problems with new tools to expand the frontiers of the commons.
