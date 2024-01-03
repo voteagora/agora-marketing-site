@@ -1,18 +1,22 @@
 import Container from "../components/container";
 import Jobs from "../components/jobs";
+import Blogs from "../components/blogs";
 import Layout from "../components/layout";
 import Header from "../components/header";
 import { getAllPosts } from "../lib/api";
+import { getAllBlogs } from "../lib/api";
 import Post from "../interfaces/post";
+import Blog from "../interfaces/blog";
 import { ArrowUpRightIcon } from "@heroicons/react/20/solid";
 import { motion } from "framer-motion";
 import FlipCard from "../components/flip-card";
 
 type Props = {
   allPosts: Post[];
+  allBlogs: Blog[];
 };
 
-export default function Index({ allPosts }: Props) {
+export default function Index({ allPosts, allBlogs }: Props) {
   return (
     <>
       <Layout>
@@ -201,6 +205,8 @@ export default function Index({ allPosts }: Props) {
               </div>
             </div>
 
+            <Blogs posts={allBlogs} />
+
             <Jobs posts={allPosts} />
           </Container>
         </motion.div>
@@ -211,8 +217,8 @@ export default function Index({ allPosts }: Props) {
 
 export const getStaticProps = async () => {
   const allPosts = getAllPosts(["title", "date", "slug", "author", "location"]);
-
+  const allBlogs = getAllBlogs(["title", "date", "slug", "author", "location"]);
   return {
-    props: { allPosts },
+    props: { allPosts,allBlogs },
   };
 };

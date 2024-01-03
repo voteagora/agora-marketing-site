@@ -7,11 +7,11 @@ type Props = {
   slug: string;
 };
 
-const PostPreview = ({ title, slug, location }: Props) => {
+const BlogPreview = ({ title, slug, location }: Props) => {
   return (
-    <div className="border-b first:rounded-t-md last:rounded-b-md last:border-0 hover:bg-stone-50 transition duration-300 ">
-      <Link as={`/posts/${slug}`} href="/posts/[slug]" className="">
-        <div className="p-4 flex justify-between items-center">
+    <div>
+      <Link as={`/blogs/${slug}`} href="/blogs/[slug]" className="">
+        <div className="flex justify-between rounded-md items-center px-3 py-3 hover:bg-white transition-all">
           <div>
             <div>{title}</div>
             <div className="font-mono text-sm text-stone-400">
@@ -27,4 +27,4 @@ const PostPreview = ({ title, slug, location }: Props) => {
   );
 };
 
-export default PostPreview;
+export default BlogPreview;

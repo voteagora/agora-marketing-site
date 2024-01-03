@@ -1,14 +1,12 @@
 import Avatar from "./avatar";
-import DateFormatter from "./date-formatter";
 import type Author from "../interfaces/author";
 
 type Props = {
   title: string;
-  date: string;
   author: Author;
 };
 
-const PostHeader = ({ title, date, author }: Props) => {
+const PostHeader = ({ title, author }: Props) => {
   return (
     <div className="md:flex flex-row items-center justify-between">
       <h1 className="m-0">{title}</h1>

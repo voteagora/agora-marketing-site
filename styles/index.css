@@ -18,6 +18,13 @@
     @apply mb-1 mt-6;
     @apply font-serif;
   }
+  h3{
+    @apply text-stone-800;
+    @apply text-base;
+    @apply mb-1 mt-6;
+    @apply font-serif;
+    @apply italic;
+  }
   html{
     @apply text-stone-600;
     @apply bg-stone-50;
