@@ -36,7 +36,6 @@ export default function Post({ post, preview }: Props) {
               </Head>
               <PostHeader
                 title={post.title}
-                date={post.date}
                 author={post.author}
               />
               <PostBody content={post.content} />
