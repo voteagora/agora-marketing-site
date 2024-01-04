@@ -1,22 +1,22 @@
 import BlogPreview from "./blog-preview";
-import type Post from "../interfaces/post";
+import type Blog from "../interfaces/blog";
 
 type Props = {
-  posts: Post[];
+  blogs: Blog[];
 };
 
-const Blogs = ({ posts }: Props) => {
+const Blogs = ({ blogs }: Props) => {
   return (
     <section>
       <div className="mt-4 rounded-md bg-stone-200">
 
         <div className="rounded-md border bg-stone-50">
-          {posts.map((post) => (
+          {blogs.map((blog) => (
             <BlogPreview
-              key={post.slug}
-              title={post.title}
-              location={post.location}
-              slug={post.slug}
+              key={blog.slug}
+              title={blog.title}
+              location={blog.location}
+              slug={blog.slug}
             />
           ))}
         </div>

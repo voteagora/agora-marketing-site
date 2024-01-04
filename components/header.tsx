@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <div className="mb-12">
+    <div className="">
       <Link href="/">
         <div className="flex gap-2 items-center">
           <Image
