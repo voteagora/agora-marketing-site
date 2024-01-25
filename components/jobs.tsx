@@ -35,7 +35,7 @@ const Jobs = ({ posts }: Props) => {
             <img
               className="rounded-sm"
               src={
-                "https://media.licdn.com/dms/image/C5603AQFcnn7Ff-baQw/profile-displayphoto-shrink_400_400/0/1549004768214?e=1706140800&v=beta&t=lTrDYh8x9WXnPK8oS5qxWBPGHFYGppQFgSmpsC5Om64"
+                "../assets/yitong.jpeg"
               }
               alt={"yitong"}
             ></img>
@@ -49,7 +49,7 @@ const Jobs = ({ posts }: Props) => {
             <img
               className="rounded-sm"
               src={
-                "https://media.licdn.com/dms/image/D5603AQFmfX8p31p7UA/profile-displayphoto-shrink_400_400/0/1700497855391?e=1706140800&v=beta&t=IpHZbqVJno0dwhJMVCET_CUjNEzLqaUhmEQbc_lNvwc"
+                "../assets/kent.jpeg"
               }
               alt={"kent"}
             ></img>
@@ -63,7 +63,7 @@ const Jobs = ({ posts }: Props) => {
             <img
               className="rounded-sm"
               src={
-                "https://media.licdn.com/dms/image/C5603AQGODXf8t9gi7A/profile-displayphoto-shrink_400_400/0/1651604241523?e=1706140800&v=beta&t=M9fX95V-HAErmU0AScztWv398H7piXngxHuA1n35ehw"
+                "../assets/charlie.jpeg"
               }
               alt={"charlie"}
             ></img>
@@ -77,7 +77,7 @@ const Jobs = ({ posts }: Props) => {
             <img
               className="rounded-sm"
               src={
-                "https://media.licdn.com/dms/image/C4D03AQEOjFe_Ox8BeQ/profile-displayphoto-shrink_400_400/0/1524421548782?e=1706140800&v=beta&t=pRrhm-rvB34gtF7c2g1mGZfK0_v3FtXW1qDl8a1kvWM"
+                "../assets/stepan.jpeg"
               }
               alt={"stepan"}
             ></img>
