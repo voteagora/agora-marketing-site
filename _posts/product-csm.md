@@ -1,13 +1,13 @@
 ---
-title: 'Fullstack engineer'
-date: '2023-11-17T05:35:07.322Z'
+title: 'PM, Success & Experience'
+date: '2024-02-09T05:35:07.322Z'
 location: 'Remote, SF or Toronto preferred'
 author:
-  name: Kent Fenwick
-  picture: '/assets/blog/authors/kent.jpeg'
-  url: 'https://github.com/kent'
+  name: Yitong Zhang
+  picture: '/assets/blog/authors/yitong.jpeg'
+  url: 'https://twitter.com/zhayitong'
 ogImage:
-  url: '/assets/blog/hello-world/cover.jpg'
+  url: '/assets/blog/dynamic-routing/cover.jpg'
 ---
 ## About Agora
 
@@ -19,21 +19,22 @@ But that’s not where we’re stop. Our goal is to build deep collaboration too
 
 ## Responsibilities
 
-We're hiring a frontend-leaning fullstack engineer to work with our engineering and product cofounders in driving Agora's application development strategy and implementation. 
+This role represents the voice of the customer. You will work directly with our engineering team as well as our customers to help champion their needs. 
+
+Making the customer successful is your #1 goal.
 
 ## What we are looking for
 
-We are looking for a fullstack developer who has a passion for pushing the boundaries of onchain governance and decentralized, collective creation forward. We’d love to work with you if...
+This role is part product manager, part customer success, part account management, and part community/marketing. Ultimately, it’s a customer facing role to help solve our customer’s problems while balancing our roadmap.
 
+We’d love to work with someone who is:
 
-- You have experience working with real-time applications
-- You have experience with React, NextJS, MVC style frameworks, REST, Postgres
-- You have a strong work ethic and care about making day by day progress on what you’re building, but can also reserve a part of your brain untethered from the earth – thinking what’s at the boundary of the possible.
-- You are familiar with how applications in crypto interface with protocols. You don't need to be a solidity expert, but you've got a long wallet history and have used and built many dapps.
-- You care deeply about craft and quality – you're frustrated that after all these years, most crypto applications are not even close to their peers in web2.
-- You are proud and passionate about Open Source. Bonus if you’ve made contributions to projects.
-- You love onchain governance like us :)
-- You have strong feelings about `.tsx` vs. `.jsx` files 😅
+- Understands business, but also product + engineering. You get that the purpose of a great product is fundamentally to solve the needs of the customers. You appreciate the tradeoffs and tension, yet you’re deeply empathetic to the customer at heart.
+- While you enjoy the complex and strategic problems, you also like rolling up your sleeves and debugging minor issues, getting your hands dirty.
+- Not afraid, but rather excited by the routine work of backlog grooming, consolidating feedback, and checkins with your stakeholders. You’re organized, diligent, and appreciate that the consistent routine work is what separates operational excellence from good.
+- Comfortable managing and working with a variety of stakeholders. Managing up, down, sideways.
+- Love governance like us :)
+- Bonus if you’re technical or able to design! (this can mean any STEM background or self-taught)
 
 ## What we offer
 
@@ -46,4 +47,4 @@ We are looking for a fullstack developer who has a passion for pushing the bound
 
 ## How to Apply
 
-Send an email to kent@voteagora.com. Please include a link to your Github profile.
+Send an email to join@voteagora.com. Please include a link to your resume or profile.

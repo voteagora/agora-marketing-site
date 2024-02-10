@@ -5,6 +5,7 @@ location: 'Remote, SF or Toronto preferred'
 author:
   name: Kent Fenwick
   picture: '/assets/blog/authors/kent.jpeg'
+  url: 'https://github.com/kent'
 ogImage:
   url: '/assets/blog/dynamic-routing/cover.jpg'
 ---

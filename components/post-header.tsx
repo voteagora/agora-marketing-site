@@ -11,7 +11,7 @@ const PostHeader = ({ title, author }: Props) => {
     <div className="md:flex flex-row items-center justify-between">
       <h1 className="m-0">{title}</h1>
       <div className="text-right">
-        <a target="BlANK_" href="https://github.com/kent"><Avatar name={author.name} picture={author.picture} /> </a>
+        <a target="BlANK_" href={author.url}><Avatar name={author.name} picture={author.picture} /></a>
       </div>
     </div>
   );
