@@ -1,6 +1,8 @@
-.markdown {
+.markdown img{
+  @apply rounded-md;
+  @apply border;
 }
 .markdown li {
   @apply list-disc;
-  @apply my-2
+  @apply my-2;
 }
