@@ -15,7 +15,7 @@ Agora is a working towards a new paradigm for group collaboration by creating th
 
 So to this end, Agora is working tirelessly on the best end-to-end governance platform for crypto protocols – the first instance of at scale onchain collaboration. Leading communities like Optimism, ENS, Uniswap, Nouns, and more rely on Agora to coordinate their community around critical protocol upgrades, ecosystem funding, and steward their ecosystem for the future.
 
-But that’s not where we’re stop. Our goal is to build deep collaboration tools for people who couldn’t care less about crypto so that one day (soon), your friends back home are using Agora without ever knowing we’re on Ethereum.
+But that’s not where we stop. Our goal is to build deep collaboration tools for people who couldn’t care less about crypto so that one day (soon), your friends back home are using Agora without ever knowing we’re on Ethereum.
 
 ## Responsibilities
 
