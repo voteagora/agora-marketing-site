@@ -14,8 +14,6 @@ import { motion } from "framer-motion";
 import FlipCard from "../components/flip-card";
 import { useState } from "react";
 import markdownToHtml from "../lib/markdownToHtml";
-import { useEffect } from "react";
-import { useRouter } from "next/router";
 
 type Props = {
   allPosts: Post[];
@@ -23,29 +21,10 @@ type Props = {
   allChangesWithSlug: any[];
 };
 
-export default function Index({
-  allPosts,
-  allBlogs,
-  allChangesWithSlug,
-}: Props) {
+export default function Index({ allPosts, allBlogs, allChangesWithSlug }: Props) {
   const [activeTab, setActiveTab] = useState("Home");
-  const router = useRouter();
-  const tabs = ["Home", "Changelog"];
 
-  useEffect(() => {
-    const hash = router.asPath.split("#")[1];
-    if (hash && tabs.includes(hash)) {
-      setActiveTab(hash);
-    }
-  }, [router.asPath]);
-  
-  useEffect(() => {
-    const hash = router.asPath.split("#")[1];
-    if (hash !== activeTab) {
-      router.replace(`#${activeTab}`);
-    }
-  }, [activeTab]);
-
+  const tabs = ["Home", "Change log"];
   return (
     <>
       <Layout>
@@ -55,28 +34,28 @@ export default function Index({
           transition={{ duration: 0.5 }}
         >
           <Container>
-            <div className="flex justify-between items-center mb-4">
-              <Header />
+            <div className="flex justify-between items-center mb-16">
+            <Header />
 
-              {/* tabs */}
-              <div className="flex bg-stone-100 rounded-full p-1 hover:cursor-pointer transition-all">
-                {tabs.map((tab) => (
-                  <div
-                    key={tab}
-                    className={`py-1 px-2 rounded-full hover:bg-stone-50 hover:text-stone-900 transition-all ${
-                      activeTab === tab
-                        ? "bg-stone-50 text-stone-900"
-                        : "text-stone-600"
-                    }`}
-                    onClick={() => setActiveTab(tab)}
-                  >
-                    {tab}
-                  </div>
-                ))}
-              </div>
+            {/* tabs */}
+            <div className="flex bg-stone-100 rounded-full p-1 hover:cursor-pointer transition-all">
+              {tabs.map((tab) => (
+                <div
+                  key={tab}
+                  className={`py-1 px-2 rounded-full hover:bg-stone-50 hover:text-stone-900 transition-all ${
+                    activeTab === tab
+                      ? "bg-stone-50 text-stone-900"
+                      : "text-stone-600"
+                  }`}
+                  onClick={() => setActiveTab(tab)}
+                >
+                  {tab}
+                </div>
+              ))}
+            </div>
             </div>
             {activeTab === "Home" && (
-              <div id="home" className="mt-12">
+              <>
                 <div className="relative group">
                   <a href="https://vote.uniswapfoundation.org/" target="_blank">
                     <img
@@ -261,13 +240,9 @@ export default function Index({
 
                 <Blogs blogs={allBlogs} />
                 <Jobs posts={allPosts} />
-              </div>
+              </>
             )}
-            {activeTab === "Changelog" && (
-              <div id="changelog">
-                <Changes changes={allChangesWithSlug} />
-              </div>
-            )}
+            {activeTab === "Change log" && <Changes changes={allChangesWithSlug} />}
           </Container>
         </motion.div>
       </Layout>
@@ -286,17 +261,19 @@ export const getStaticProps = async () => {
     "location",
   ]);
 
-  const allChangesWithSlug = allChanges.map((change) =>
-    getChangeBySlug(change.slug, ["title", "date", "slug", "author", "content"])
-  );
-
-  for (let i = 0; i < allChangesWithSlug.length; i++) {
-    allChangesWithSlug[i].content = await markdownToHtml(
-      allChangesWithSlug[i].content || ""
-    );
+  const allChangesWithSlug = allChanges.map(change => getChangeBySlug(change.slug, [
+    'title',
+    'date',
+    'slug',
+    'author',
+    'content',
+  ]));
+  
+  for(let i = 0; i < allChangesWithSlug.length; i++) {
+    allChangesWithSlug[i].content = await markdownToHtml(allChangesWithSlug[i].content || '');
   }
 
-  console.log(allChangesWithSlug);
+  console.log(allChangesWithSlug)
   return {
     props: { allPosts, allBlogs, allChangesWithSlug },
   };
