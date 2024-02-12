@@ -21,10 +21,10 @@ But that’s not where we stop. Our goal is to build deep collaboration tools fo
 
 We're hiring a backend-leaning fullstack engineer to work with our engineering and in driving Agora's application development strategy and implementation. This is a technical leadership position where you will: 
 
-- Architect and develop distributed systems
+- Architect and develop complex systems and foundational infrastructure components used by our engineering team
 - Manage individual projects priorities, deadlines and deliverables with your technical expertise
 - Mentor and train other team members on design techniques and coding standards
-- Design and implement foundational infrastructure components used by our engineering team in production
+
 
 ## What we are looking for
 

@@ -1,14 +1,15 @@
 ---
-title: 'PM, Success & Customers'
-date: '2024-02-09T05:35:07.322Z'
-location: 'Remote, SF preferred'
+title: "Head of Customer Success"
+date: "2024-02-09T05:35:07.322Z"
+location: "Remote, SF preferred"
 author:
   name: Yitong Zhang
-  picture: '/assets/blog/authors/yitong.jpeg'
-  url: 'https://twitter.com/zhayitong'
+  picture: "/assets/blog/authors/yitong.jpeg"
+  url: "https://twitter.com/zhayitong"
 ogImage:
-  url: '/assets/blog/dynamic-routing/cover.jpg'
+  url: "/assets/blog/dynamic-routing/cover.jpg"
 ---
+
 ## About Agora
 
 Agora is a working towards a new paradigm for group collaboration by creating the tools for communities work together onchain. This is not yet-another-productivity-saas. We believe that to enable the next era of collaboration, we need software that can bend current and create new incentives. No amount of removing friction will change how we work together if our reward functions are misaligned.
@@ -19,13 +20,13 @@ But that’s not where we stop. Our goal is to build deep collaboration tools fo
 
 ## Responsibilities
 
-This role represents the voice of the customer. You will work directly with our engineering team as well as our customers to help champion their needs. 
+This is not your typical CSM role. You will be part product manager, part customer success, part account management, and part community/marketing. Your responsibility is to do whatever necessary to ensure that Agora's users and stakholders are able to accomplish their goals – and to this end, will be given direct control over the roadmap and engineering resource to resolve customers' needs. This role could be the right fit if you're: 
 
-Making the customer successful is your #1 goal.
+- Coming from CSM / Community / Marketing / Account Management and transition to Product Management
+- Coming from Product Management, and want to hone your business skills to start your own company.
+
 
 ## What we are looking for
-
-This role is part product manager, part customer success, part account management, and part community/marketing. Ultimately, it’s a customer facing role to help solve our customer’s problems while balancing our roadmap.
 
 We’d love to work with someone who is:
 
