@@ -1,7 +1,7 @@
 ---
 title: 'PM, Success & Customers'
 date: '2024-02-09T05:35:07.322Z'
-location: 'Remote, SF or Toronto preferred'
+location: 'Remote, SF preferred'
 author:
   name: Yitong Zhang
   picture: '/assets/blog/authors/yitong.jpeg'

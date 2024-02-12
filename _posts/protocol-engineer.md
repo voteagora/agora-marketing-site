@@ -1,7 +1,7 @@
 ---
-title: 'Protocol engineer'
+title: 'Staff Protocol Engineer'
 date: '2023-11-17T05:35:07.322Z'
-location: 'Remote, SF or Toronto preferred'
+location: 'Remote, SF preferred'
 author:
   name: Kent Fenwick
   picture: '/assets/blog/authors/kent.jpeg'
@@ -20,7 +20,13 @@ But that’s not where we stop. Our goal is to build deep collaboration tools fo
 
 ## Responsibilities
 
-This is a technical leadership role where you’ll be working as a peer with our engineering and product cofounders in driving the protocol strategy, implementation, and ensuring they work well with our applications. 
+This is a technical leadership role where you’ll be working as a peer with our engineering and product cofounders in driving the protocol strategy, implementation, and ensuring they work well with our applications. Day to day, you will: 
+
+- Architect and build smart contract protocols that secure billions of dollars of value and the future of many of the most important protocols in Ethereum
+- In particular, drive decentralization technical strategy for the Optimism Superchain
+- Drive standardization in crypto protocols by designing and defining interfaces and standards
+- Mentor and train other team members and teams on smart contract engineering best practices
+
 
 ## What we are looking for
 
