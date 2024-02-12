@@ -34,9 +34,7 @@ const Jobs = ({ posts }: Props) => {
           <a target="_blank" href="https://twitter.com/zhayitong">
             <img
               className="rounded-sm"
-              src={
-                "../assets/yitong.jpeg"
-              }
+              src={"../assets/yitong.jpeg"}
               alt={"yitong"}
             ></img>
             <div className="text-xs text-center mt-1 font-serif italic text-stone-400">
@@ -48,9 +46,7 @@ const Jobs = ({ posts }: Props) => {
           <a target="_blank" href="https://www.linkedin.com/in/kentfenwick/">
             <img
               className="rounded-sm"
-              src={
-                "../assets/kent.jpeg"
-              }
+              src={"../assets/kent.jpeg"}
               alt={"kent"}
             ></img>
             <div className="text-xs text-center mt-1 font-serif italic text-stone-400">
@@ -62,9 +58,7 @@ const Jobs = ({ posts }: Props) => {
           <a target="_blank" href="https://www.linkedin.com/in/charliecf/">
             <img
               className="rounded-sm"
-              src={
-                "../assets/charlie.jpeg"
-              }
+              src={"../assets/charlie.jpeg"}
               alt={"charlie"}
             ></img>
             <div className="text-xs text-center mt-1 font-serif italic text-stone-400">
@@ -76,9 +70,7 @@ const Jobs = ({ posts }: Props) => {
           <a target="_blank" href="https://www.linkedin.com/in/sarsentjev/">
             <img
               className="rounded-sm"
-              src={
-                "../assets/stepan.jpeg"
-              }
+              src={"../assets/stepan.jpeg"}
               alt={"stepan"}
             ></img>
             <div className="text-xs text-center mt-1 font-serif italic text-stone-400">
@@ -87,14 +79,16 @@ const Jobs = ({ posts }: Props) => {
           </a>
         </div>
         <div className="w-1/6 p-1 -rotate-6 bg-white shadow-sm rounded-md transition-all duration-300 hover:rotate-0 hover:scale-125 ease-out hover:shadow-md hover:z-10">
-          <img
-            className="rounded-sm"
-            src={"https://i.imgur.com/4TG3qoW.png"}
-            alt={"cats"}
-          ></img>
-          <div className="text-xs text-center mt-1 font-serif italic text-stone-400">
-            Andrei
-          </div>
+          <a href="https://twitter.com/andreitr">
+            <img
+              className="rounded-sm"
+              src={"../assets/andrei.png"}
+              alt={"andrei"}
+            ></img>
+            <div className="text-xs text-center mt-1 font-serif italic text-stone-400">
+              Andrei
+            </div>
+          </a>
         </div>
         <div className="w-1/6 p-1 rotate-8 bg-white shadow-sm rounded-md transition-all duration-300 hover:rotate-0 hover:scale-125 ease-out hover:shadow-md hover:z-10">
           <div className="rounded-sm bg-stone-200 w-full h-3/4 relative">
