@@ -1,4 +1,5 @@
 import type Author from "../interfaces/author";
+import Avatar from "./avatar";
 
 type Props = {
   title: string;
