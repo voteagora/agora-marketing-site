@@ -18,12 +18,13 @@ So to this end, Agora is working tirelessly on the best end-to-end governance pl
 
 But that’s not where we stop. Our goal is to build deep collaboration tools for people who couldn’t care less about crypto so that one day (soon), your friends back home are using Agora without ever knowing we’re on Ethereum.
 
-## Responsibilities
+## What you'll do
 
-This is not your typical CSM role. You will be part product manager, part customer success, part account management, and part community/marketing. Your responsibility is to do whatever necessary to ensure that Agora's users and stakholders are able to accomplish their goals – and to this end, will be given direct control over the roadmap and engineering resource to resolve customers' needs. This role could be the right fit if you're: 
+This is not your typical CSM role. You will be part product manager, part customer success, part account management, and part community manager. Your responsibility is to do whatever necessary to ensure that Agora's users and stakholders are able to accomplish their goals – and to this end, will be given direct control over the roadmap and engineering resource to resolve customers' needs. This role could be the right fit if you're: 
 
+- In CSM and leveling up your process and system design chops
 - Coming from CSM / Community / Marketing / Account Management and transition to Product Management
-- Coming from Product Management, and want to hone your business skills to start your own company.
+- Coming from Product Management, and want to hone your business skills to start your own company
 
 
 ## What we are looking for

@@ -17,7 +17,7 @@ So to this end, Agora is working tirelessly on the best end-to-end governance pl
 
 But that’s not where we stop. Our goal is to build deep collaboration tools for people who couldn’t care less about crypto so that one day (soon), your friends back home are using Agora without ever knowing we’re on Ethereum.
 
-## Responsibilities
+## What you'll do
 
 We're hiring a backend-leaning fullstack engineer to work with our engineering and in driving Agora's application development strategy and implementation. This is a technical leadership position where you will: 
 
@@ -47,4 +47,4 @@ We are looking for a backend-leaning fullstack developer who has a passion for p
 
 ## How to Apply
 
-Send an email to kent@voteagora.com. Please include a link to your Github profile.
+Send an email to join@voteagora.com. Please include a link to your Github profile.

@@ -93,7 +93,7 @@ const Jobs = ({ posts }: Props) => {
             alt={"cats"}
           ></img>
           <div className="text-xs text-center mt-1 font-serif italic text-stone-400">
-            Keyboard cats
+            Andrei
           </div>
         </div>
         <div className="w-1/6 p-1 rotate-8 bg-white shadow-sm rounded-md transition-all duration-300 hover:rotate-0 hover:scale-125 ease-out hover:shadow-md hover:z-10">

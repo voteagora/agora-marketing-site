@@ -1,11 +1,11 @@
 ---
-title: 'Staff Protocol Engineer'
+title: 'Product Designer – Any Level'
 date: '2023-11-17T05:35:07.322Z'
 location: 'Remote, SF preferred'
 author:
-  name: Kent Fenwick
-  picture: '/assets/blog/authors/kent.jpeg'
-  url: 'https://github.com/kent'
+  name: Yitong Zhang
+  picture: "/assets/blog/authors/yitong.jpeg"
+  url: "https://twitter.com/zhayitong"
 ogImage:
   url: '/assets/blog/dynamic-routing/cover.jpg'
 ---
@@ -19,28 +19,23 @@ So to this end, Agora is working tirelessly on the best end-to-end governance pl
 But that’s not where we stop. Our goal is to build deep collaboration tools for people who couldn’t care less about crypto so that one day (soon), your friends back home are using Agora without ever knowing we’re on Ethereum.
 
 ## What you'll do
-
-This is a technical leadership role where you’ll be working as a peer with our engineering and product cofounders in driving the protocol strategy, implementation, and ensuring they work well with our applications. Day to day, you will: 
-
-- Architect and build smart contract protocols that secure billions of dollars of value and the future of many of the most important protocols in Ethereum
-- In particular, drive decentralization technical strategy for the Optimism Superchain
-- Drive standardization in crypto protocols by designing and defining interfaces and standards
-- Mentor and train other team members and teams on smart contract engineering best practices
-
+- Own product design end to end at Agora, with support from Yitong, our design co-founder
+- Shape the product requirement and provide input into the roadmap (we have no PMs)
+- Work with engineer to establish and improve our design system
+- Be the standard bearer for product quality and user experience
 
 ## What we are looking for
+We're open to strong designers of any experience level and are willing to build the position around you. We're more excited about talent and ambition than years of experience. Senior candidates can expect to be the leader of the function, with our design co-founder playing a support role. Earlier career candidates will receive more active mentorship and coaching from our Yitong. No matter the experience level, a strong candidate will have:
 
-We are looking for a solidity developer who has a passion for pushing the boundaries of onchain governance and decentralized, collective creation forward. We’d love to work with you if…
-
-- You have a strong work ethic and care about making day by day progress on what you’re building, but can also reserve a part of your brain untethered from the earth – thinking what’s at the boundary of the possible.
-- You consider how your code will be read, written and indexed by applications as a core part of good protocol engineering. You understand how data gets into the EVM, how it get into applications, and how can you do that efficiently.
-- You are familiar with the most common crypto protocols and standards and are able to explain how and why they work. You don’t need to have worked on these contracts directly, but you should be comfortable explaining their design patterns and extrapolating into your work at Agora.
-- You keep up with the latest frontier developments in crypto: zkp, account abstraction, mev, L2s etc. This is not a research engineer role, but working familiarity with what’s at the frontier will help you steer our protocol engineering thinking in the right direction in the long run.
-- You are proud and passionate about Open Source. Bonus if you’ve made contributions to projects.
+- Strong visual and interaction design chops.
+- Technical literacy – you're as comfortable in Github as your engineering peers are in Figma, and understand frontend enough to co-create a robust design system in collaboration with your eng peers.
+- A mind for product strategy: We have no PMs – and believe in a culture of empowered designers and engineers directly shaping the definition of the product they are building.
+- You are proud and passionate about Crypto, Internet communities, and Open Source.
 - You love onchain governance like us :)
 
 ## What we offer
 
+- A culture lead by design: our co-founder is a designer! You'll be working closely with him and be able to stretch as far into product and engineering as you desire.
 - Ownership – both in responsibility and equity. We’re a small team with high trust and expectations of each other. We want you to own a sizable chunk of of the product and company, and structure our compensation accordingly.
 - Competitive benefits – in addition to good health and dental benefits, we trust all employees with a no-limit company card and equal access to our executive assistant to use however they see fit to increase their productivity.
 - A strong team – we’re a small team that values experience, character and integrity. You’ll work with peers you respect, and who respect you.
@@ -50,4 +45,4 @@ We are looking for a solidity developer who has a passion for pushing the bounda
 
 ## How to Apply
 
-Send an email to join@voteagora.com. Please include a link to your Github profile.
+Send an email to join@voteagora.com. Please include a link to your portfolio.
