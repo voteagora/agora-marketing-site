@@ -19,13 +19,13 @@ So to this end, Agora is working tirelessly on the best end-to-end governance pl
 But that’s not where we stop. Our goal is to build deep collaboration tools for people who couldn’t care less about crypto so that one day (soon), your friends back home are using Agora without ever knowing we’re on Ethereum.
 
 ## What you'll do
-- Own product design end to end at Agora, with support from Yitong, our design co-founder
+- Own product design end to end at Agora, with support from our design co-founder
 - Shape the product requirement and provide input into the roadmap (we have no PMs)
 - Work with engineer to establish and improve our design system
 - Be the standard bearer for product quality and user experience
 
 ## What we are looking for
-We're open to strong designers of any experience level and are willing to build the position around you. We're more excited about talent and ambition than years of experience. Senior candidates can expect to be the leader of the function, with our design co-founder playing a support role. Earlier career candidates will receive more active mentorship and coaching from our Yitong. No matter the experience level, a strong candidate will have:
+We're open to strong designers of any experience level and are willing to build the position around you. We're more excited about talent and ambition than years of experience. Senior candidates can expect to be the leader of the function, with our design co-founder playing a support role. Earlier career candidates will receive more active mentorship and coaching from our design co-founder. No matter the experience level, a strong candidate will have:
 
 - Strong visual and interaction design chops.
 - Technical literacy – you're as comfortable in Github as your engineering peers are in Figma, and understand frontend enough to co-create a robust design system in collaboration with your eng peers.
