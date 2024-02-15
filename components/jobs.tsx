@@ -1,6 +1,7 @@
 import PostPreview from "./post-preview";
 import type Post from "../interfaces/post";
 import { UserIcon } from "@heroicons/react/20/solid";
+import PostPreviewProtocolEng from "./post-preview-protocol-eng";
 
 type Props = {
   posts: Post[];
@@ -18,13 +19,22 @@ const Jobs = ({ posts }: Props) => {
       <div className="bg-gradient-to-b from-stone-200 to-stone-50 rounded-xl p-[1px]">
         <div className="h-full w-full bg-stone-50 p-3 rounded-[0.72rem]">
           <div className="bg-white rounded-md shadow-sm hover:shadow-md transition duration-300 border slate-50">
-            {posts.map((post) => (
-              <PostPreview
-                key={post.slug}
-                title={post.title}
-                location={post.location}
-                slug={post.slug}
-              />
+            {posts.map((post, index) => (
+              index === posts.length - 1 ? (
+                <PostPreviewProtocolEng
+                  key={post.slug}
+                  title={post.title}
+                  location={post.location}
+                  slug={post.slug}
+                />
+              ) : (
+                <PostPreview
+                  key={post.slug}
+                  title={post.title}
+                  location={post.location}
+                  slug={post.slug}
+                />
+              )
             ))}
           </div>
         </div>
