@@ -6,7 +6,11 @@ Check it out at [voteagora.com](https://www.voteagora.com/)
 to run it locally:
 
 ```bash
+## To Install
 yarn
+
+## To run locally
+npm run dev
 # npx run dev
 npm install --save next react react-dom
 ```
