@@ -11,7 +11,7 @@ ogImage:
 ---
 ## About Agora
 
-Agora is a working towards a new paradigm for group collaboration by creating the tools for communities work together onchain. This is not yet-another-productivity-saas. We believe that to enable the next era of collaboration, we need software that can bend current and create new incentives. No amount of removing friction will change how we work together if our reward functions are misaligned.
+Agora is working towards a new paradigm for group collaboration by creating the tools for communities to work together onchain. This is not yet-another-productivity-saas. We believe that to enable the next era of collaboration, we need software that can bend current and create new incentives. No amount of removing friction will change how we work together if our reward functions are misaligned.
 
 So to this end, Agora is working tirelessly on the best end-to-end governance platform for crypto protocols – the first instance of at scale onchain collaboration. Leading communities like Optimism, ENS, Uniswap, Nouns, and more rely on Agora to coordinate their community around critical protocol upgrades, ecosystem funding, and steward their ecosystem for the future.
 
@@ -19,7 +19,7 @@ But that’s not where we stop. Our goal is to build deep collaboration tools fo
 
 ## What you'll do
 
-We're hiring a backend-leaning fullstack engineer to work with our engineering and in driving Agora's application development strategy and implementation. This is a technical leadership position where you will: 
+We're hiring a backend-leaning fullstack engineer to work with our engineering and product cofounders in driving Agora's application development strategy and implementation. This is a technical leadership position where you will: 
 
 - Architect and develop complex systems and foundational infrastructure components used by our engineering team
 - Manage individual projects priorities, deadlines and deliverables with your technical expertise

@@ -12,7 +12,7 @@ ogImage:
 
 ## About Agora
 
-Agora is a working towards a new paradigm for group collaboration by creating the tools for communities work together onchain. This is not yet-another-productivity-saas. We believe that to enable the next era of collaboration, we need software that can bend current and create new incentives. No amount of removing friction will change how we work together if our reward functions are misaligned.
+Agora is working towards a new paradigm for group collaboration by creating the tools for communities to work together onchain. This is not yet-another-productivity-saas. We believe that to enable the next era of collaboration, we need software that can bend current and create new incentives. No amount of removing friction will change how we work together if our reward functions are misaligned.
 
 So to this end, Agora is working tirelessly on the best end-to-end governance platform for crypto protocols – the first instance of at scale onchain collaboration. Leading communities like Optimism, ENS, Uniswap, Nouns, and more rely on Agora to coordinate their community around critical protocol upgrades, ecosystem funding, and steward their ecosystem for the future.
 
