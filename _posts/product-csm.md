@@ -49,6 +49,6 @@ We’d love to work with someone who is:
 
 ## How to Apply
 
-<a href="https://voteagora.deform.cc/applytoteam">Apply Here</a>
+[Apply Here](https://voteagora.deform.cc/applytoteam)
 
 Please include a link to your resume or profile.

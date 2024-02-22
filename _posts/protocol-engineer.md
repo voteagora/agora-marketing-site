@@ -50,6 +50,6 @@ We are looking for a solidity developer who has a passion for pushing the bounda
 
 ## How to Apply
 
-<a href="https://voteagora.deform.cc/applytoteam">Apply Here</a>
+[Apply Here](https://voteagora.deform.cc/applytoteam)
 
 Please include a link to your Github profile. Curta leaderboard candidates skip directly to CTO interview

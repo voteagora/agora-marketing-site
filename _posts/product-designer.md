@@ -45,6 +45,6 @@ We're open to strong designers of any experience level and are willing to build 
 
 ## How to Apply
 
-<a href="https://voteagora.deform.cc/applytoteam">Apply Here</a>
+[Apply Here](https://voteagora.deform.cc/applytoteam)
 
 Please include a link to your portfolio.
