@@ -47,4 +47,6 @@ We are looking for a backend-leaning fullstack developer who has a passion for p
 
 ## How to Apply
 
-Send an email to join@voteagora.com. Please include a link to your Github profile.
+<a href="https://voteagora.deform.cc/applytoteam">Apply Here</a>
+
+Please include a link to your Github profile.

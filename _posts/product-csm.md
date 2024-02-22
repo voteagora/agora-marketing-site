@@ -49,4 +49,6 @@ We’d love to work with someone who is:
 
 ## How to Apply
 
-Send an email to join@voteagora.com. Please include a link to your resume or profile.
+<a href="https://voteagora.deform.cc/applytoteam">Apply Here</a>
+
+Please include a link to your resume or profile.
