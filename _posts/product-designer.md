@@ -45,4 +45,4 @@ We're open to strong designers of any experience level and are willing to build 
 
 ## How to Apply
 
-Send an email to join@voteagora.com. Please include a link to your portfolio.
+[Apply Here.](https://voteagora.deform.cc/applytoteam) Please include a link to your portfolio.

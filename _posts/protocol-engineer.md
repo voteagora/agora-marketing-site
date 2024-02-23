@@ -50,4 +50,4 @@ We are looking for a solidity developer who has a passion for pushing the bounda
 
 ## How to Apply
 
-Send an email to join@voteagora.com. Please include a link to your Github profile. Curta leaderboard candidates skip directly to CTO interview
+[Apply Here](https://voteagora.deform.cc/applytoteam) Please include a link to your Github profile. Curta leaderboard candidates skip directly to CTO interview
