@@ -1,12 +1,12 @@
-import type Author from '../interfaces/author'
-import { getLocaleCode } from '../lib/helpers'
-import Avatar from './avatar'
+import type Author from '../interfaces/author';
+import { getLocaleCode } from '../lib/helpers';
+import Avatar from './avatar';
 
 type Props = {
-  title: string
-  author: Author
-  date?: string
-}
+  title: string;
+  author: Author;
+  date?: string;
+};
 
 const PostHeader = ({ title, author, date }: Props) => {
   return (
@@ -31,7 +31,7 @@ const PostHeader = ({ title, author, date }: Props) => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default PostHeader
+export default PostHeader;
