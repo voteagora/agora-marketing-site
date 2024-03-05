@@ -34,10 +34,10 @@ export default function Blog({ blog, preview }: Props) {
                 <title>{title}</title>
                 <meta property="og:image" content={blog.ogImage.url} />
               </Head>
-              
               <PostHeader
                 title={blog.title}
                 author={blog.author}
+                date={blog.date}
               />
               <PostBody content={blog.content} />
             </article>
