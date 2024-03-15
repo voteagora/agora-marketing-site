@@ -47,4 +47,4 @@ We are looking for a backend-leaning fullstack developer who has a passion for p
 
 ## How to Apply
 
-[Apply Here.](https://voteagora.deform.cc/applytoteam) Please include a link to your Github profile.
+[Apply Here.](https://app.deform.cc/form/f1bab8c4-70a3-423f-b6bf-ebf9a7a2fb2a) Please include a link to your Github profile.
